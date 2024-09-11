@@ -1,0 +1,413 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/main.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/dist/main.js"></script>
+    <style type="text/css" name="inline">
+    </style>
+</head>
+
+<body>
+    <div>
+        @include("header.html")
+        <div class="min-h-screen flex flex-col items-center gap-[5rem] max-md:gap-[56px] overflow-hidden">
+            <!-- Banner -->
+            <div class="relative flex flex-col items-center w-full gap-10 max-md:gap-6">
+                <div class="absolute bg-primary top-0 left-0 right-0 h-[54%] max-md:h-[90%] max-xl:h-[75%] z-0"></div>
+                <svg class="absolute bottom-[46%] max-xl:bottom-[25%] max-md:hidden left-[43px] w-[30%]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 446 252" fill="none">
+                    <path d="M425.182 288.724C474.029 210.508 431.126 123.656 356.537 73.1422C281.948 22.6283 210.351 -5.18438 89.8168 0.803455C-30.7175 6.79129 5.27719 25.2226 5.27719 25.2226C5.27719 25.2226 147.383 94.5863 79.9178 174.378C46.0045 212.89 -22.0303 186.031 35.7403 297.463C93.5108 408.896 217.887 471.531 263.424 449.681C308.961 427.832 357.288 397.438 425.182 288.724Z" fill="#FFF6DE" fill-opacity="0.35"/>
+                </svg>
+                <div class="md:w-[63.8%] max-md:px-5 max-md:gap-6 z-[1] gap-10 flex flex-col items-center justify-center">
+                    <div class="text-[#191E26] flex flex-col gap-3 md:gap-4 max-w-[43rem] items-center pt-[72px] max-md:pt-[36px]">
+                        <h2 class="font-[700] text-2xl md:text-[2.5rem] md:leading-[3.25rem">Career</h2>
+                        <div class="flex flex-col items-center">
+                            <span class="text-base text-center font-[400]">
+                                Are you interested in learning something new every day? Would you like to work in a young, creative and fun team? Do you love to work with the latest technologies? Have you ever imagined yourself working remotely? Then let's become our teammates!
+                            </span>
+                            <p>Email: <a href="mailto:jobs@dgroup.com">jobs@dgroup.com</a></p>
+                            <p>Phone: <a href="tel:(+84) 886 01 71 91">(+84) 886 01 71 91</a></p>
+                        </div>
+                    </div>
+                    <div class="relative w-full">
+                        <img alt="Hình bander" class="w-full rounded-[40px] h-full" src="./assets/images/carrer/banner.png"/>
+                    </div>
+                </div>
+            </div>
+            <!-- Founder -->
+           
+            <div class="flex flex-col items-center">
+                <h2 class="font-[700] text-2xl md:text-[2.5rem] md:leading-[3.25rem] text-[#191E26]">Founder</h2>
+                <div class="grid grid-cols-2 gap-10 max-md:gap-0 pt-[2.5rem] max-w-[770px]">
+                    <div class="flex flex-col items-center gap-2">
+                        <div class="flex items-center relative">
+                            <img alt="Hình người" class="w-full h-full" src="./assets/images/carrer/Ava.png"/>
+                        </div>
+                        <div class="text-[#191E26] flex flex-col items-center gap-2">
+                            <h7 class="font-[700] text-xl text-[#191E26]">Hung vo</h7>
+                            <p class="max-md:text-[12px] max-md:leading-[16px]">Founder & CEO</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center gap-2">
+                        <div class="flex items-center relative">
+                            <img alt="Hình người" class="w-full h-full" src="./assets/images/carrer/Ava.png"/>
+                        </div>
+                        <div class="text-[#191E26] flex flex-col items-center gap-2">
+                            <h7 class="font-[700] text-xl text-[#191E26]">Ha Truong</h7>
+                            <p class="max-md:text-[12px] max-md:leading-[16px]">Co-founder, Managing director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  We alway -->
+           <div class="flex flex-col bg-[#272D36] justify-center items-center gap-10 w-full">
+                <div class="flex flex-col justify-center pt-[120px] max-md:pt-[56px] max-w-[706px] max-md:px-5 gap-4">
+                    <h2 class="text-white text-2xl font-[700] text-center">We always say Hi to great people</h2>
+                    <span style="font-family: 'Inter';" class="text-white text-center text-[16px] leading-[26px]">
+                        Should our narrative spark your enthusiasm, come aboard, and let's collaboratively design delightful experiences together!
+                    </span>
+                </div>
+                <div class="grid grid-cols-2 pb-[120px] max-md:w-full max-md:px-5 gap-x-8 gap-y-10 max-md:grid-cols-1  max-w-[918px]">
+                    <div class="rounded-2xl flex flex-wrap relative pr-6 pl-6 py-6 bg-[#121518] hover:bg-[#3B4350] max-md:pr-[19px]">
+                        <div class="pb-4 md:flex-1 max-md:w-full">
+                            <h7 class="text-white text-xl font-[700]">Full stack developer</h7>
+                            <p class="text-white text-base font-normal ">$800 - $1.500, Ho Chi Minh City<p>
+                        </div>
+                        <button class="cursor-pointer font-medium rounded-br-2xl md:w-[120px] h-11 max-md:order-3 w-full flex items-center justify-center bg-primary border-none">Apply</button>
+                        <div class="flex flex-wrap pb-4 md:pb-0 gap-2">
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Full time</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl flex flex-wrap relative pr-6 pl-6 py-6 bg-[#121518] hover:bg-[#3B4350] max-md:pr-[19px]">
+                        <div class="pb-4 md:flex-1 max-md:w-full">
+                            <h7 class="text-white text-xl font-[700]">Full stack developer</h7>
+                            <p class="text-white text-base font-normal ">$800 - $1.500, Ho Chi Minh City<p>
+                        </div>
+                        <button class="cursor-pointer font-medium rounded-br-2xl md:w-[120px] h-11 max-md:order-3 w-full flex items-center justify-center bg-primary border-none">Apply</button>
+                        <div class="flex flex-wrap pb-4 md:pb-0 gap-2">
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Full time</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl flex flex-wrap relative pr-6 pl-6 py-6 bg-[#121518] hover:bg-[#3B4350] max-md:pr-[19px]">
+                        <div class="pb-4 md:flex-1 max-md:w-full">
+                            <h7 class="text-white text-xl font-[700]">Full stack developer</h7>
+                            <p class="text-white text-base font-normal ">$800 - $1.500, Ho Chi Minh City<p>
+                        </div>
+                        <button class="cursor-pointer font-medium rounded-br-2xl md:w-[120px] h-11 max-md:order-3 w-full flex items-center justify-center bg-primary border-none">Apply</button>
+                        <div class="flex flex-wrap pb-4 md:pb-0 gap-2">
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Full time</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl flex flex-wrap relative pr-6 pl-6 py-6 bg-[#121518] hover:bg-[#3B4350] max-md:pr-[19px]">
+                        <div class="pb-4 md:flex-1 max-md:w-full">
+                            <h7 class="text-white text-xl font-[700]">Full stack developer</h7>
+                            <p class="text-white text-base font-normal ">$800 - $1.500, Ho Chi Minh City<p>
+                        </div>
+                        <button class="cursor-pointer font-medium rounded-br-2xl md:w-[120px] h-11 max-md:order-3 w-full flex items-center justify-center bg-primary border-none">Apply</button>
+                        <div class="flex flex-wrap pb-4 md:pb-0 gap-2">
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Full time</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl flex flex-wrap relative pr-6 pl-6 py-6 bg-[#121518] hover:bg-[#3B4350] max-md:pr-[19px]">
+                        <div class="pb-4 md:flex-1 max-md:w-full">
+                            <h7 class="text-white text-xl font-[700]">Full stack developer</h7>
+                            <p class="text-white text-base font-normal ">$800 - $1.500, Ho Chi Minh City<p>
+                        </div>
+                        <button class="cursor-pointer font-medium rounded-br-2xl md:w-[120px] h-11 max-md:order-3 w-full flex items-center justify-center bg-primary border-none">Apply</button>
+                        <div class="flex flex-wrap pb-4 md:pb-0 gap-2">
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Full time</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl flex flex-wrap relative pr-6 pl-6 py-6 bg-[#121518] hover:bg-[#3B4350] max-md:pr-[19px]">
+                        <div class="pb-4 md:flex-1 max-md:w-full">
+                            <h7 class="text-white text-xl font-[700]">Full stack developer</h7>
+                            <p class="text-white text-base font-normal ">$800 - $1.500, Ho Chi Minh City<p>
+                        </div>
+                        <button class="cursor-pointer font-medium rounded-br-2xl md:w-[120px] h-11 max-md:order-3 w-full flex items-center justify-center bg-primary border-none">Apply</button>
+                        <div class="flex flex-wrap pb-4 md:pb-0 gap-2">
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Full time</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl flex flex-wrap relative pr-6 pl-6 py-6 bg-[#121518] hover:bg-[#3B4350] max-md:pr-[19px]">
+                        <div class="pb-4 md:flex-1 max-md:w-full">
+                            <h7 class="text-white text-xl font-[700]">Full stack developer</h7>
+                            <p class="text-white text-base font-normal ">$800 - $1.500, Ho Chi Minh City<p>
+                        </div>
+                        <button class="cursor-pointer font-medium rounded-br-2xl md:w-[120px] h-11 max-md:order-3 w-full flex items-center justify-center bg-primary border-none">Apply</button>
+                        <div class="flex flex-wrap pb-4 md:pb-0 gap-2">
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Full time</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                        </div>
+                    </div>
+                    <div class="rounded-2xl flex flex-wrap relative pr-6 pl-6 py-6 bg-[#121518] hover:bg-[#3B4350] max-md:pr-[19px]">
+                        <div class="pb-4 md:flex-1 max-md:w-full">
+                            <h7 class="text-white text-xl font-[700]">Full stack developer</h7>
+                            <p class="text-white text-base font-normal ">$800 - $1.500, Ho Chi Minh City<p>
+                        </div>
+                        <button class="cursor-pointer font-medium rounded-br-2xl md:w-[120px] h-11 max-md:order-3 w-full flex items-center justify-center bg-primary border-none">Apply</button>
+                        <div class="flex flex-wrap pb-4 md:pb-0 gap-2">
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Full time</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                            <div class="flex text-[#E7F0FF] h-7 items-center px-3 font-semibold text-xs justify-center border border-white rounded-xl">Hybrid</div>
+                        </div>
+                    </div>
+                </div>
+                
+           </div>
+            <!-- Swiper -->
+            <div class="swiper carrer-swiper w-[100%] px-0 py-5 md:py-10">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide w-[64%] about-us-slide rounded-3xl overflow-hidden">
+                        <div class="relative">
+                            <div class="md:pb-[58%] pb-[56%]"></div>
+                            <img alt="Hình nhóm người" src="./assets/images/carrer/fe3f5c3b44122786c7ac2d5ef27ebf12.png"
+                                class="absolute inset-0 w-full h-full object-cover" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-[64%] about-us-slide rounded-3xl overflow-hidden">
+                        <div class="relative">
+                            <div class="md:pb-[58%] pb-[56%]"></div>
+                            <img alt="Hình nhóm người" src="./assets/images/carrer/049156f467d3d1a867c0d51e7d260463.png"
+                                class="absolute inset-0 w-full h-full object-cover" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-[64%] about-us-slide rounded-3xl overflow-hidden">
+                        <div class="relative">
+                            <div class="md:pb-[58%] pb-[56%]"></div>
+                            <img alt="Hình nhóm người" src="./assets/images/carrer/fe3f5c3b44122786c7ac2d5ef27ebf12.png"
+                                class="absolute inset-0 w-full h-full object-cover" />
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide w-[64%] about-us-slide rounded-3xl overflow-hidden">
+                        <div class="relative">
+                            <div class="md:pb-[58%] pb-[56%]"></div>
+                            <img alt="Hình nhóm người" src="./assets/images/carrer/fe3f5c3b44122786c7ac2d5ef27ebf12.png"
+                                class="absolute inset-0 w-full h-full object-cover" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide w-[64%] about-us-slide rounded-3xl overflow-hidden">
+                        <div class="relative">
+                            <div class="md:pb-[58%] pb-[56%]"></div>
+                            <img alt="Hình nhóm người" src="./assets/images/carrer/fe3f5c3b44122786c7ac2d5ef27ebf12.png"
+                                class="absolute inset-0 w-full h-full object-cover" />
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination !bottom-0"></div>
+            </div>
+            <!--  Why you -->
+            <div class="flex flex-col justify-center items-center gap-10 w-full">
+                <div class="flex flex-col gap-3 md:gap-4 max-w-[43rem] items-center">
+                    <h6 class="font-[700] text-2xl md:text-[2.5rem] md:leading-[3.25rem] text-[#121518]">Why you’ll love working here</h6>
+                </div>
+                <div class="text-[#191E26] max-w-[918px] max-md:pb-[56px] pb-20 max-md:grid-cols-1 max-md:px-5 grid grid-cols-3 gap-y-[24px] gap-x-[33px]">
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/heart.png"/>
+                        <p >
+                            Social insurance, medical insurance & unemployment insurance according to Vietnam Labor Law
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/community.png"/>
+                        <p >
+                            Working in a professional, friendly, well-equipped environment both with foreigners and Vietnamese.
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/cash.png"/>
+                        <p >
+                            Extensive on job training, you will always have the chance to work with new emerging technologies
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/coffe.png"/>
+                        <p >
+                            Offer free food and drink everyday
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/money.png"/>
+                        <p >
+                            Attractive salary and annual salary review
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/world.png"/>
+                        <p >
+                            Company Party, Birthday Party, Annual travel
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/volley.png"/>
+                        <p >
+                            Playing sports: Football, Badminton
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/star.png"/>
+                        <p >
+                            13th-month salary and Bonus based on performance.
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/calendar.png"/>
+                        <p >
+                            12-day annual leave per year
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/macbook.png"/>
+                        <p >
+                            MacBook or iMac for work
+                        </p>
+                    </div>
+                    <div class="gap-5 shadow-[0_2px_5px_2px_rgba(0,0,0,0.1)] rounded-2xl flex p-[24px] flex-col">
+                        <img alt="Hình icon" height="80px" width="80px" src="./assets/images/carrer/game.png"/>
+                        <p >
+                            Playing games: PlayStation, Uno, Darts, Avalon, Bang, Werewolf, Dixit Odyssey
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Party Verification -->
+            <div class="lg:w-[918px] m-auto px-5 md:px-20 lg:px-0 flex flex-col md:flex-row justify-between pb-14 md:pb-[7.5rem] md:items-end gap-6 md:gap-0 items-center w-full">
+                <div class="flex flex-col text-center md:text-left">
+                    <span class="relative font-extrabold text-[2.75rem] md:text-[4.5rem] lg:text-[6rem] xl:text-[6.75rem] z-0">Got
+                        an idea?<img alt="Hình contact" class="absolute right-0 -z-[1] top-0 w-[68px] md:w-[175px]" src="./assets/images/swap-contact.svg"></span>
+                    <span class="font-medium text-xl md:text-[2.15rem] lg:text-[3rem] xl:text-[3.5rem] text-neutral-40 z-10">We
+                        can help you realize it. </span>
+                </div>
+                <button class="w-fit flex items-center gap-2 py-4 px-14 bg-secondary text-white text-base font-medium rounded-ee-2xl h-fit">
+                    Submit
+                </button>
+            </div>
+        </div>
+
+        @include("footer.html")
+    </div>
+    <script>
+       
+        var swiper1 = new Swiper(".carrer-swiper", {
+            slidesPerView: "auto",
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            loop: true,
+            initialSlide: 1,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 0,
+                modifier: 1,
+                scale: 0.74,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+
+        function showClient(idShow, idHide) {
+            $(`#${idShow}`).addClass("opacity-100");
+            $(`#${idHide}`).removeClass("opacity-100");
+            $(`#${idHide}`).addClass("opacity-0");
+            $(`#${idShow}`).removeClass("opacity-0");
+        }
+        function swapNodes(node1, node2) {
+            const temp = document.createComment("");
+            node2.replaceWith(temp);
+            node1.replaceWith(node2);
+            temp.replaceWith(node1);
+        }
+        $(function () {
+            $("[data-client_id]").on("click", function () {
+                const hideElement = $(".border-primary>[data-client_id]");
+                const idShow = `client-${$(this).data("client_id")}`;
+                const idHide = `client-${hideElement.data("client_id")}`;
+                if (idHide == idShow) {
+                    return;
+                }
+                swapNodes(hideElement[0], this);
+                showClient(idShow, idHide);
+            });
+
+            let maxHeight = 0;
+
+            $("[id^='client']").each(function () {
+                this.clientHeight > maxHeight && (maxHeight = this.clientHeight);
+            });
+
+            $("style[name='inline']").text(`
+                @media (max-width: 767px) { 
+                    #client-feedback-container{
+                        height: ${maxHeight + 96}px;
+                    }
+                 }
+            `);
+        });
+
+        // Handle scroll change background-color header
+        $(window).scroll(function () {
+            var scrollPosition = $(this).scrollTop();
+            if (scrollPosition > 100) {
+                $("#header__nav").css("background", "linear-gradient(180deg, #FFFFFF 42.5%, rgba(255, 255, 255, 0) 149.38%)");
+                $("#header__nav-logo").attr("src", "./assets/images/logo-icon.svg");
+            } else {
+                $("#header__nav").css("background", "#fff");
+                $("#header__nav-logo").attr("src", "./assets/images/logo.png");
+            }
+            // Close header nav when scroll
+            $("#header__nav-mobile").css("display", "none");
+        });
+
+        // Toggle menu for mobile
+        $("#header__control-menu").on("click", function () {
+            $("#header__nav-mobile").css("display", "block");
+        })
+
+        // Close header
+        $("#header__control-close").on("click", function () {
+            $("#header__nav-mobile").css("display", "none");
+        })
+
+        // Toggle menu services mobile
+        $("#services__control-menu").on("click", function () {
+            $("#services__menu").css("display", "block");
+            $("#header__menu").css("display", "none");
+        })
+
+        // Go back main menu
+        $("#go-back-menu").on("click", function () {
+            $("#services__menu").css("display", "none");
+            $("#header__menu").css("display", "block");
+        })
+    </script>
+</body>
+
+</html>

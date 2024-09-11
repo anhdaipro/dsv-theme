@@ -1,0 +1,96 @@
+@import '../node_modules/swiper/swiper.min.css';
+@import '../node_modules/swiper/modules/pagination/pagination.min.css';
+@import '../node_modules/swiper/modules/pagination/pagination.min.css';
+@import './assets/fonts/noto-sans/fonts.css';
+@import './assets/fonts/bricolage-grotesque/fonts.css';
+:root {
+  --swiper-pagination-color: #191e26;
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: 8px;
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-top: auto;
+  --swiper-pagination-fraction-color: inherit;
+  --swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.25);
+  --swiper-pagination-progressbar-size: 4px;
+  --swiper-pagination-bullet-size: 24px;
+  --swiper-pagination-bullet-width: 24px;
+  --swiper-pagination-bullet-height: 4px;
+  --swiper-pagination-bullet-border-radius: 8px;
+  --swiper-pagination-bullet-inactive-color: #000;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+}
+.swiper-pagination-bullet {
+  border-radius: 8px !important;
+}
+
+.about-us-slide {
+  background-color: white;
+}
+
+.about-us-slide.swiper-slide-active {
+  background-color: transparent !important;
+}
+.list-item li:not(:last-child){
+border-bottom: 1px solid ;
+}
+.the-lasted .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.website-development .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.web-application-development
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.techlife .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.software-development .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.software-project-management
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.mobile-app-development
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.eCommerce-development
+  .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.design-world .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.chatbot-development .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.best-companies .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #fcbf10 !important;
+  width: 15px !important;
+  height: 5px !important;
+}
+.the-lasted .swiper-pagination-bullet,
+.website-development .swiper-pagination-bullet,
+.web-application-development .swiper-pagination-bullet,
+.techlife .swiper-pagination-bullet,
+.software-development .swiper-pagination-bullet,
+.software-project-management .swiper-pagination-bullet,
+.mobile-app-development .swiper-pagination-bullet,
+.eCommerce-development .swiper-pagination-bullet,
+.design-world .swiper-pagination-bullet,
+.chatbot-development .swiper-pagination-bullet,
+.best-companies .swiper-pagination-bullet {
+  width: 7px !important;
+  background-color: #ffe291 !important;
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .swiper-slide-active > .justify-center {
+    opacity: 1 !important;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Noto Sans', system-ui, sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  h7 {
+    font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  }
+}

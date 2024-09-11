@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/main.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/dist/main.js"></script>
+    <style type="text/css" name="inline">
+    </style>
+</head>
+
+<body>
+    <div>
+        @include("header.html")
+        <div class="min-h-screen flex flex-col items-center overflow-hidden">
+            <div class="bg-[#FFCC3B] relative w-full pb-[51.5%] max-xl:pb-[80%] max-md:pb-[185%] flex items-center justify-center max-md:w-full">
+                <div class="absolute -top-[80px] bottom-0 left-0 w-full">
+                    <img class="w-full h-full" alt="body" src="./assets/images//subscription/body.png"/>
+                </div>
+                <div class="absolute bottom-0 left-0 w-[75%] md:w-[46%]">
+                    <img class="w-full h-full img-group-1" src="./assets/images/subscription/Group1.png" alt="" />
+                </div>
+                <div class="absolute md:-top-[10%] right-0 w-[29.5%] max-md:w-[85%] max-md:bottom-[40%]">
+                    <img class="w-full h-full img-group-2" src="./assets/images/subscription/Group3.png" alt="" />
+                </div>
+                <div style="mix-blend-mode: overlay;" class="absolute md:top-0 right-0 w-[40%] max-md:w-[85%] max-md:bottom-[40%] max-md:hidden">
+                    <img class="w-full h-full" src="./assets/images/subscription/Red.png" alt="" />
+                </div>
+                <div class="w-[681px] max-md:w-[89.5%] bg-[#fff] rounded-[24px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  absolute">
+                    <div class="w-full pb-[40px] md:pb-[84px] relative">
+                        <div class="absolute left-1/2 rounded-br-[20px] rounded-bl-[20px] -bottom-[12px] max-md:-bottom-4 z-10 w-[90%] h-[12px] max-md:h-[16px] bg-[#D39D00] transform -translate-x-1/2">
+
+                        </div>
+                        <div class="absolute left-1/2 rounded-br-[20px] rounded-bl-[20px] -bottom-[24px] w-[80%] h-[24px] bg-[#AA7E00] transform -translate-x-1/2">
+
+                        </div>
+                        <div class="rounded-[30px] absolute w-[60%] max-md:w-[70%] top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                            <img class="" src="./assets/images/subscription/bell.png"/>
+                        </div>
+                        <div class="absolute max-w-[400px] md:w-[44%] xl:w-[54%]  overflow-hidden left-[75%] md:left-[60%] bottom-full max-md:hidden">
+                            <img class="-mb-[20px]" src="./assets/images/subscription/Vector.png"/>
+                        </div>
+                        <button class="absolute max-md:hidden right-[24px] top-[24px]">
+                            <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.96967 0.46967C1.26256 0.176777 1.73744 0.176777 2.03033 0.46967L7.5 5.93934L12.9697 0.46967C13.2626 0.176777 13.7374 0.176777 14.0303 0.46967C14.3232 0.762563 14.3232 1.23744 14.0303 1.53033L8.56066 7L14.0303 12.4697C14.3232 12.7626 14.3232 13.2374 14.0303 13.5303C13.7374 13.8232 13.2626 13.8232 12.9697 13.5303L7.5 8.06066L2.03033 13.5303C1.73744 13.8232 1.26256 13.8232 0.96967 13.5303C0.676777 13.2374 0.676777 12.7626 0.96967 12.4697L6.43934 7L0.96967 1.53033C0.676777 1.23744 0.676777 0.762563 0.96967 0.46967Z" fill="#191E26"/>
+                            </svg>
+                        </button>
+                        <form class="text-[#191E26] max-md:w-full max-md:px-[32px] flex flex-col items-center gap-10 pt-[56px] max-md:pt-[30%] justify-end">
+                            <div class="flex max-md:w-full flex-col gap-5 text-center max-md:gap-3">
+                                <h3 class="text-[#191E26] text-[44px] font-bold leading-[52px] max-md:leading-[48px] max-md:text-[40px]">Subscribe</h3>
+                                <div class="border-dashed border-[1px] border-gray-500"></div>
+                                <span class="text-base text-[#3C2C00]">
+                                    Enter your email to receive updates!
+                                </span>
+                            </div>
+                            
+                                <div class="h-[56px] flex items-center relative w-[442px] max-md:w-full">
+                                    <button type="button" class="absolute right-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M3.21018 7.54069C2.93112 7.62043 2.67771 7.77166 2.47503 7.9794C2.27236 8.18715 2.12743 8.44422 2.05461 8.72517C1.98178 9.00612 1.98358 9.30123 2.05981 9.58127C2.13605 9.86132 2.28409 10.1166 2.48928 10.3219L5.3329 13.1622V18.6512H10.8276L13.6904 21.5099C13.8441 21.6649 14.0269 21.788 14.2282 21.8721C14.4296 21.9562 14.6456 21.9997 14.8639 22C15.0073 21.9997 15.1501 21.9812 15.2889 21.945C15.5698 21.8743 15.827 21.7308 16.0348 21.529C16.2425 21.3273 16.3935 21.0743 16.4724 20.7957L22.0013 2L3.21018 7.54069ZM3.67356 9.14339L17.865 4.95954L7.00141 15.8059V12.4721L3.67356 9.14339ZM14.8747 20.3315L11.5185 16.9844H8.18486L19.0468 6.13135L14.8747 20.3315Z" fill="black"/>
+                                        </svg>
+                                    </button>
+                                    <input name="name" type="text" id="name" class="h-full  py-2 bg-transparent border border-[#677282] text-[#677282] rounded-2xl block w-full pl-4" placeholder="Your full name" required />
+                                </div>
+                            
+                        </form>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @include("footer.html")
+    </div>
+    <script>
+       $(document).ready(function(){
+            // Hàm để thực hiện hành động tùy thuộc vào kích thước màn hình
+            function responsiveAction() {
+                var screenWidth = $(window).width();
+
+                // Nếu kích thước màn hình nhỏ hơn 768px
+                if (screenWidth < 768) {
+                    // Thực hiện hành động cho màn hình nhỏ
+                    $(".img-group-1").attr('src', "./assets/images/subscription/Group2.png")
+                    $(".img-group-2").attr('src' , "./assets/images/subscription/Group4.png");
+                } else {
+                    // Thực hiện hành động cho màn hình lớn hơn hoặc bằng 768px
+                    $(".img-group-1").attr('src' , "./assets/images/subscription/Group1.png");
+                    $(".img-group-2").attr('src' ,  "./assets/images/subscription/Group3.png");
+                }
+            }
+
+            // Gọi hàm responsiveAction() khi trang được tải
+            responsiveAction();
+
+            // Gọi hàm responsiveAction() mỗi khi kích thước màn hình thay đổi
+            $(window).resize(function() {
+                responsiveAction();
+            });
+        });
+       function showElement(idShow, idHide) {
+            $(`#${idShow}`).addClass("opacity-100");
+            $(`#${idHide}`).removeClass("opacity-100");
+            $(`#${idHide}`).addClass("opacity-0");
+            $(`#${idShow}`).removeClass("opacity-0");
+        }
+        function swapNodes(node1, node2) {
+            const temp = document.createComment("");
+            node2.replaceWith(temp);
+            node1.replaceWith(node2);
+            temp.replaceWith(node1);
+        }
+        $(function () {
+            $("[data-client_id]").on("click", function () {
+                const hideElement = $(".border-primary>[data-client_id]");
+                const idShow = `client-${$(this).data("client_id")}`;
+                const idHide = `client-${hideElement.data("client_id")}`;
+                if (idHide == idShow) {
+                    return;
+                }
+                swapNodes(hideElement[0], this);
+                showElement(idShow, idHide);
+            });
+
+            let maxHeight = 0;
+
+            $("[id^='client']").each(function () {
+                this.clientHeight > maxHeight && (maxHeight = this.clientHeight);
+            });
+
+            $("style[name='inline']").text(`
+                @media (max-width: 767px) { 
+                    #client-feedback-container{
+                        height: ${maxHeight + 96}px;
+                    }
+                 }
+            `);
+        });
+
+        // Handle scroll change background-color header
+        $(window).scroll(function () {
+            var scrollPosition = $(this).scrollTop();
+            if (scrollPosition > 100) {
+                $("#header__nav").css("background", "linear-gradient(180deg, #FFFFFF 42.5%, rgba(255, 255, 255, 0) 149.38%)");
+                $("#header__nav-logo").attr("src", "./assets/images/logo-icon.svg");
+            } else {
+                $("#header__nav").css("background", "#fff");
+                $("#header__nav-logo").attr("src", "./assets/images/logo.png");
+            }
+            // Close header nav when scroll
+            $("#header__nav-mobile").css("display", "none");
+        });
+
+        // Toggle menu for mobile
+        $("#header__control-menu").on("click", function () {
+            $("#header__nav-mobile").css("display", "block");
+        })
+
+        // Close header
+        $("#header__control-close").on("click", function () {
+            $("#header__nav-mobile").css("display", "none");
+        })
+
+        // Toggle menu services mobile
+        $("#services__control-menu").on("click", function () {
+            $("#services__menu").css("display", "block");
+            $("#header__menu").css("display", "none");
+        })
+
+        // Go back main menu
+        $("#go-back-menu").on("click", function () {
+            $("#services__menu").css("display", "none");
+            $("#header__menu").css("display", "block");
+        })
+
+        // Get height header
+        $("#services__dropdown").css("top", `${$("#header__nav").outerHeight() - 1}px`);
+
+        $(".services-menu").hover(
+            function () {
+                $('.image-estimate').addClass('hidden');
+            }, function () {
+                $('.image-estimate').removeClass('hidden');
+            }
+        );
+        // Show list service header
+        $(function () {
+            $("[data-service_id]").on("click", function () {
+                const hideElement = $(".opacity-100[id^=service-]");
+                const idShow = `service-${$(this).data("service_id")}`;
+                const idHide = `service-${hideElement.data("service_id")}`;
+
+                console.log(idHide, idShow);
+                if (idHide == idShow) {
+                    return;
+                }
+                // swapNodes(hideElement[0], this);
+                showElement(idShow, idHide);
+            });
+        });
+    </script>
+</body>
+
+</html>

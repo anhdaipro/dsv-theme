@@ -1,0 +1,790 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/main.css" rel="stylesheet">
+    <script src="/dist/main.js"></script>
+    <style type="text/css" name="inline">
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        @include("header.html")
+        <div class="min-h-screen flex flex-col items-center gap-14 md:gap-[7.5rem] overflow-hidden">
+            <!-- Banner -->
+            <div class="lg:w-[918px] m-auto px-5 md:px-20 lg:px-0 pt-10 flex flex-col gap-4 items-center">
+                <h1
+                    class="text-[2rem] leading-[2.75rem] md:leading-[4.25rem] md:text-[3.5rem] font-bold text-secondary max-w-[42rem] text-center">
+                    <span class="relative z-0">We are a<img class="absolute top-0 left-0 -z-[1]"
+                            src="./assets/images/swap.svg" /></span> <span class="text-primary">highly skilled
+                        team</span>
+                    of <span class="text-primary">designers</span> and <span class="text-primary">developers</span>.
+                </h1>
+                <span class="text-secondary max-w-[45rem] text-center text-base font-medium mb-2">Designveloper, founded
+                    in
+                    2013, leads Ho Chi Minh City's software development. Our skilled team ensures cost-effective,
+                    top-tier
+                    services for web, mobile, UI/UX, and VOIP.</span>
+                <img src="./assets/images/home/home-banner.png" class="rounded-[2.5rem]" />
+            </div>
+
+            <!-- Our client -->
+            <div class="h-[60px] md:h-[120px] bg-[#191E26] w-full">
+                <div class="swiper our-clients h-full">
+                    <div class="swiper-wrapper our-clients-list ease-linear gap-8">
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <div class="text-yellow-400 text-[16px] md:text-[32px] font-bold leading-10 text-nowrap">Our
+                                Clients</div>
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/c.svg">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/c.svg">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/r.png">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/m.svg">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/b.svg">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/w.svg">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/c.svg">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/r.png">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/m.svg">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/b.svg">
+                        </div>
+                        <div class="swiper-slide flex w-fit items-center gap-8">
+                            <img class="max-h-full" src="./assets/images/star-icon.svg">
+                            <img class="max-h-full" src="./assets/images/customers/w.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About us -->
+            <div class="lg:w-[918px] m-auto px-5 md:px-20 lg:px-0 flex flex-col items-center">
+                <div class="flex flex-col gap-3 md:gap-4 max-w-[43rem] items-center">
+                    <h2 class="font-extrabold text-2xl md:text-[2.5rem] md:leading-[3.25rem] text-secondary">About us
+                    </h2>
+                    <span class="text-base text-center">
+                        Designveloper is the leading software development company in Ho Chi Minh
+                        City, Vietnam, founded in early 2013 with a team of professional and
+                        enthusiastic Web developers, Mobile developers, UI/UX designers and VOIP
+                        experts. Following a systematic approach, we can deliver the best and most
+                        cost-effective software services to our clients.
+                    </span>
+                </div>
+                <div class="swiper about-us lg:w-[918px] md:w-[90%] w-[100%] px-0 py-5 md:py-10">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide w-[80%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[58%] pb-[65%]"></div>
+                                <img src="./assets/images/home/about-us.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide w-[80%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[58%] pb-[65%]"></div>
+                                <img src="./assets/images/home/about-us.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide w-[80%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[58%] pb-[65%]"></div>
+                                <img src="./assets/images/home/about-us.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide w-[80%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[58%] pb-[65%]"></div>
+                                <img src="./assets/images/home/about-us.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide w-[80%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[58%] pb-[65%]"></div>
+                                <img src="./assets/images/home/about-us.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination !bottom-0"></div>
+                </div>
+                <div class="flex md:gap-24 gap-7 pt-4 md:pt-8">
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold font-bricolage-grotesque text-5xl md:text-[4rem] text-primary">10</span>
+                        <span class="md:uppercase font-medium text-base text-nowrap">Years</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span
+                            class="font-bold font-bricolage-grotesque text-5xl md:text-[4rem] text-primary">550k</span>
+                        <span class="md:uppercase font-medium text-base text-nowrap">Hours of work</span>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <span class="font-bold font-bricolage-grotesque text-5xl md:text-[4rem] text-primary">60</span>
+                        <span class="md:uppercase font-medium text-base text-nowrap">Happy clients</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div class="flex flex-col gap-6 md:gap-10 items-center px-5 md:px-16 w-full max-w-[1312px]">
+                <h2 class="font-bold text-2xl md:text-[2.75rem] text-secondary">Our services</h2>
+                <div class="swiper services w-full">
+                    <div class="swiper-wrapper pb-8">
+                        <div class="swiper-slide flex w-full h-full flex-col md:flex-row">
+                            <div
+                                class="relative overflow-hidden md:w-1/2 min-h-[300px] flex justify-center items-center rounded-t-[2rem] md:rounded-none md:rounded-l-[3.75rem] bg-primary-95">
+                                <div class="max-w-80 flex flex-col gap-4 items-center justify-center text-center z-0">
+                                    <span
+                                        class="font-semibold text-xl md:text-[2.5rem] leading-[3.25rem] text-secondary z-10 font-bricolage-grotesque">Web
+                                        Application Development</span>
+                                    <span class="text-base text-secondary">Transform online presence with
+                                        Designveloper's Web
+                                        App Development. Expertly blending
+                                        innovation and precision for unbeatable user experiences and business
+                                        success.</span>
+                                </div>
+                                <img class="absolute top-0 left-0" src="./assets/images/swap-big.svg" />
+                            </div>
+                            <div
+                                class="md:w-1/2 flex justify-center items-center rounded-b-[2rem] md:rounded-none md:rounded-r-[3.75rem] md:py-20 bg-primary relative">
+                                <div class="md:pb-[112%] pb-[120%]"></div>
+                                <div
+                                    class="w-[80%] md:w-[70%] flex flex-col gap-4 items-center justify-center text-center relative">
+                                    <div class="md:pb-[150%] pb-[120%]"></div>
+
+                                    <img src="./assets/images/home/home-service.png"
+                                        class="absolute inset-0 w-full h-full object-cover rounded-3xl">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex w-full h-full flex-col md:flex-row">
+                            <div
+                                class="relative overflow-hidden md:w-1/2 min-h-[300px] flex justify-center items-center rounded-t-[2rem] md:rounded-none md:rounded-l-[3.75rem] bg-primary-95">
+                                <div class="max-w-80 flex flex-col gap-4 items-center justify-center text-center z-0">
+                                    <span
+                                        class="font-semibold text-xl md:text-[2.5rem] leading-[3.25rem] text-secondary z-10 font-bricolage-grotesque">Web
+                                        Application Development</span>
+                                    <span class="text-base text-secondary">Transform online presence with
+                                        Designveloper's Web
+                                        App Development. Expertly blending
+                                        innovation and precision for unbeatable user experiences and business
+                                        success.</span>
+                                </div>
+                                <img class="absolute top-0 left-0" src="./assets/images/swap-big.svg" />
+                            </div>
+                            <div
+                                class="md:w-1/2 flex justify-center items-center rounded-b-[2rem] md:rounded-none md:rounded-r-[3.75rem] md:py-20 bg-[#E2FFBE] relative">
+                                <div class="md:pb-[112%] pb-[120%]"></div>
+                                <div
+                                    class="w-[80%] md:w-[70%] flex flex-col gap-4 items-center justify-center text-center relative">
+                                    <div class="md:pb-[150%] pb-[120%]"></div>
+
+                                    <img src="./assets/images/home/home-service.png"
+                                        class="absolute inset-0 w-full h-full object-cover rounded-3xl">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex w-full h-full flex-col md:flex-row">
+                            <div
+                                class="relative overflow-hidden md:w-1/2 min-h-[300px] flex justify-center items-center rounded-t-[2rem] md:rounded-none md:rounded-l-[3.75rem] bg-primary-95">
+                                <div class="max-w-80 flex flex-col gap-4 items-center justify-center text-center z-0">
+                                    <span
+                                        class="font-semibold text-xl md:text-[2.5rem] leading-[3.25rem] text-secondary z-10 font-bricolage-grotesque">Web
+                                        Application Development</span>
+                                    <span class="text-base text-secondary">Transform online presence with
+                                        Designveloper's Web
+                                        App Development. Expertly blending
+                                        innovation and precision for unbeatable user experiences and business
+                                        success.</span>
+                                </div>
+                                <img class="absolute top-0 left-0" src="./assets/images/swap-big.svg" />
+                            </div>
+                            <div
+                                class="md:w-1/2 flex justify-center items-center rounded-b-[2rem] md:rounded-none md:rounded-r-[3.75rem] md:py-20 bg-primary relative">
+                                <div class="md:pb-[112%] pb-[120%]"></div>
+                                <div
+                                    class="w-[80%] md:w-[70%] flex flex-col gap-4 items-center justify-center text-center relative">
+                                    <div class="md:pb-[150%] pb-[120%]"></div>
+
+                                    <img src="./assets/images/home/home-service.png"
+                                        class="absolute inset-0 w-full h-full object-cover rounded-3xl">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex w-full h-full flex-col md:flex-row">
+                            <div
+                                class="relative overflow-hidden md:w-1/2 min-h-[300px] flex justify-center items-center rounded-t-[2rem] md:rounded-none md:rounded-l-[3.75rem] bg-primary-95">
+                                <div class="max-w-80 flex flex-col gap-4 items-center justify-center text-center z-0">
+                                    <span
+                                        class="font-semibold text-xl md:text-[2.5rem] leading-[3.25rem] text-secondary z-10 font-bricolage-grotesque">Web
+                                        Application Development</span>
+                                    <span class="text-base text-secondary">Transform online presence with
+                                        Designveloper's Web
+                                        App Development. Expertly blending
+                                        innovation and precision for unbeatable user experiences and business
+                                        success.</span>
+                                </div>
+                                <img class="absolute top-0 left-0" src="./assets/images/swap-big.svg" />
+                            </div>
+                            <div
+                                class="md:w-1/2 flex justify-center items-center rounded-b-[2rem] md:rounded-none md:rounded-r-[3.75rem] md:py-20 bg-primary relative">
+                                <div class="md:pb-[112%] pb-[120%]"></div>
+                                <div
+                                    class="w-[80%] md:w-[70%] flex flex-col gap-4 items-center justify-center text-center relative">
+                                    <div class="md:pb-[150%] pb-[120%]"></div>
+
+                                    <img src="./assets/images/home/home-service.png"
+                                        class="absolute inset-0 w-full h-full object-cover rounded-3xl">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide flex w-full h-full flex-col md:flex-row">
+                            <div
+                                class="relative overflow-hidden md:w-1/2 min-h-[300px] flex justify-center items-center rounded-t-[2rem] md:rounded-none md:rounded-l-[3.75rem] bg-primary-95">
+                                <div class="max-w-80 flex flex-col gap-4 items-center justify-center text-center z-0">
+                                    <span
+                                        class="font-semibold text-xl md:text-[2.5rem] leading-[3.25rem] text-secondary z-10 font-bricolage-grotesque">Web
+                                        Application Development</span>
+                                    <span class="text-base text-secondary">Transform online presence with
+                                        Designveloper's Web
+                                        App Development. Expertly blending
+                                        innovation and precision for unbeatable user experiences and business
+                                        success.</span>
+                                </div>
+                                <img class="absolute top-0 left-0" src="./assets/images/swap-big.svg" />
+                            </div>
+                            <div
+                                class="md:w-1/2 flex justify-center items-center rounded-b-[2rem] md:rounded-none md:rounded-r-[3.75rem] md:py-20 bg-primary relative">
+                                <div class="md:pb-[112%] pb-[120%]"></div>
+                                <div
+                                    class="w-[80%] md:w-[70%] flex flex-col gap-4 items-center justify-center text-center relative">
+                                    <div class="md:pb-[150%] pb-[120%]"></div>
+
+                                    <img src="./assets/images/home/home-service.png"
+                                        class="absolute inset-0 w-full h-full object-cover rounded-3xl">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination !bottom-0"></div>
+                </div>
+            </div>
+
+            <!-- Third Party Verification -->
+            <div class="flex flex-col gap-6 items-center w-full lg:w-[918px] xl:w-[72rem] m-auto px-5 lg:px-0">
+                <h2 class="font-extrabold text-2xl md:text-[2.5rem] md:leading-[3.25rem] text-secondary">Third Party
+                    Verification</h2>
+                <div class="py-3 md:py-6 rounded-[2rem] w-full shadow-custom overflow-hidden">
+                    <div class="swiper third-party-verification h-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify1.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify2.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify3.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify4.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify5.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify1.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify2.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify3.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify4.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                            <div class="swiper-slide flex gap-3 md:gap-11 mr-3 md:mr-11 items-center w-fit">
+                                <img class="w-14 h-14 md:w-[6.5rem] md:h-[6.5rem]"
+                                    src="./assets/images/home/third-party-verify5.png" />
+                                <img src="./assets/images/star-icon.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project -->
+            <div class="lg:max-w-[1440px] md:w-[100%] w-[100%] m-auto px-5 md:px-20 lg:px-0 flex flex-col items-center">
+                <div class="flex flex-col gap-3 md:gap-4 max-w-[43rem] items-center">
+                    <h2 class="font-extrabold text-2xl md:text-[2.5rem] md:leading-[3.25rem] text-secondary">Project
+                    </h2>
+                    <span class="text-base text-center">
+                        Since DSV's inception, our moral commitment drives us to provide top-tier IT services for global
+                        business growth. With skilled teams prioritizing customer satisfaction, our affordable, quality
+                        services have earned us a strong reputation and a loyal customer network.
+                    </span>
+                </div>
+                <div class="swiper project lg:max-w-[1440px] md:w-[100%] w-[100%] px-0 py-4 md:py-8">
+                    <div class="flex gap-4 md:gap-8 justify-center mb-4 md:mb-8">
+                        <div role="button"
+                            class="flex justify-center items-center px-2 w-10 h-10 bg-white rounded-full border border-gray-700 border-solid shadow-md swiper-button-prev">
+                            <img loading="lazy" src="./assets/images/prev.svg" class="w-full aspect-square" />
+                        </div>
+                        <div role="button"
+                            class="flex justify-center items-center px-2 w-10 h-10 bg-white rounded-full border border-gray-700 border-solid shadow-md swiper-button-next">
+                            <img loading="lazy" src="./assets/images/next.svg" class="w-full aspect-square" />
+                        </div>
+                    </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide w-[80%] md:w-[52%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[75%] pb-[65%]"></div>
+                                <img src="./assets/images/home/project4.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                            <div class="pt-4 md:pt-8 flex justify-center md:opacity-0">
+                                <div class="w-full md:w-[63%]">
+                                    <div class="flex justify-center items-center gap-4">
+                                        <div class="w-10 aspect-square md:w-12 bg-zinc-300 md:rounded-2xl rounded-xl">
+                                        </div>
+                                        <div
+                                            class="grow shrink text-xl md:text-3xl text-nowrap basis-0 text-gray-800 font-bold font-bricolage-grotesque ">
+                                            Project name</div>
+                                    </div>
+                                    <div class="text-sm">
+                                        Since our founding, we've provided world-class services to our clients. Our
+                                        skilled
+                                        staff executes every project gracefully, creating client loyalty.
+                                    </div>
+                                </div>
+                                <div class="flex-col justify-center w-[15%] md:flex hidden">
+                                    <div
+                                        class="flex justify-center items-center w-full aspect-square bg-amber-200 rounded-full">
+                                        <div
+                                            class="flex justify-center items-center px-2 w-[70%] aspect-square bg-primary rounded-full backdrop-blur">
+                                            <img src="./assets/images/arrow-long-right.svg"
+                                                class="w-[40%] aspect-square">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide w-[80%] md:w-[52%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[75%] pb-[65%]"></div>
+                                <img src="./assets/images/home/project4.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                            <div class="pt-4 md:pt-8 flex justify-center md:opacity-0">
+                                <div class="w-full md:w-[63%]">
+                                    <div class="flex justify-center items-center gap-4">
+                                        <div class="w-10 aspect-square md:w-12 bg-zinc-300 md:rounded-2xl rounded-xl">
+                                        </div>
+                                        <div
+                                            class="grow shrink text-xl md:text-3xl text-nowrap basis-0 text-gray-800 font-bold font-bricolage-grotesque ">
+                                            Project name</div>
+                                    </div>
+                                    <div class="text-sm">
+                                        Since our founding, we've provided world-class services to our clients. Our
+                                        skilled
+                                        staff executes every project gracefully, creating client loyalty.
+                                    </div>
+                                </div>
+                                <div class="flex-col justify-center w-[15%] md:flex hidden">
+                                    <div
+                                        class="flex justify-center items-center w-full aspect-square bg-amber-200 rounded-full">
+                                        <div
+                                            class="flex justify-center items-center px-2 w-[70%] aspect-square bg-primary rounded-full backdrop-blur">
+                                            <img src="./assets/images/arrow-long-right.svg"
+                                                class="w-[40%] aspect-square">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide w-[80%] md:w-[52%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[75%] pb-[65%]"></div>
+                                <img src="./assets/images/home/project4.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                            <div class="pt-4 md:pt-8 flex justify-center md:opacity-0">
+                                <div class="w-full md:w-[63%]">
+                                    <div class="flex justify-center items-center gap-4">
+                                        <div class="w-10 aspect-square md:w-12 bg-zinc-300 md:rounded-2xl rounded-xl">
+                                        </div>
+                                        <div
+                                            class="grow shrink text-xl md:text-3xl text-nowrap basis-0 text-gray-800 font-bold font-bricolage-grotesque ">
+                                            Project name</div>
+                                    </div>
+                                    <div class="text-sm">
+                                        Since our founding, we've provided world-class services to our clients. Our
+                                        skilled
+                                        staff executes every project gracefully, creating client loyalty.
+                                    </div>
+                                </div>
+                                <div class="flex-col justify-center w-[15%] md:flex hidden">
+                                    <div
+                                        class="flex justify-center items-center w-full aspect-square bg-amber-200 rounded-full">
+                                        <div
+                                            class="flex justify-center items-center px-2 w-[70%] aspect-square bg-primary rounded-full backdrop-blur">
+                                            <img src="./assets/images/arrow-long-right.svg"
+                                                class="w-[40%] aspect-square">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide w-[80%] md:w-[52%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[75%] pb-[65%]"></div>
+                                <img src="./assets/images/home/project4.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                            <div class="pt-4 md:pt-8 flex justify-center md:opacity-0">
+                                <div class="w-full md:w-[63%]">
+                                    <div class="flex justify-center items-center gap-4">
+                                        <div class="w-10 aspect-square md:w-12 bg-zinc-300 md:rounded-2xl rounded-xl">
+                                        </div>
+                                        <div
+                                            class="grow shrink text-xl md:text-3xl text-nowrap basis-0 text-gray-800 font-bold font-bricolage-grotesque ">
+                                            Project name</div>
+                                    </div>
+                                    <div class="text-sm">
+                                        Since our founding, we've provided world-class services to our clients. Our
+                                        skilled
+                                        staff executes every project gracefully, creating client loyalty.
+                                    </div>
+                                </div>
+                                <div class="flex-col justify-center w-[15%] md:flex hidden">
+                                    <div
+                                        class="flex justify-center items-center w-full aspect-square bg-amber-200 rounded-full">
+                                        <div
+                                            class="flex justify-center items-center px-2 w-[70%] aspect-square bg-primary rounded-full backdrop-blur">
+                                            <img src="./assets/images/arrow-long-right.svg"
+                                                class="w-[40%] aspect-square">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide w-[80%] md:w-[52%] about-us-slide">
+                            <div class="relative">
+                                <div class="md:pb-[75%] pb-[65%]"></div>
+                                <img src="./assets/images/home/project4.png"
+                                    class="absolute inset-0 w-full h-full object-cover rounded-3xl" />
+                            </div>
+                            <div class="pt-4 md:pt-8 flex justify-center md:opacity-0">
+                                <div class="w-full md:w-[63%]">
+                                    <div class="flex justify-center items-center gap-4">
+                                        <div class="w-10 aspect-square md:w-12 bg-zinc-300 md:rounded-2xl rounded-xl">
+                                        </div>
+                                        <div
+                                            class="grow shrink text-xl md:text-3xl text-nowrap basis-0 text-gray-800 font-bold font-bricolage-grotesque ">
+                                            Project name</div>
+                                    </div>
+                                    <div class="text-sm">
+                                        Since our founding, we've provided world-class services to our clients. Our
+                                        skilled
+                                        staff executes every project gracefully, creating client loyalty.
+                                    </div>
+                                </div>
+                                <div class="flex-col justify-center w-[15%] md:flex hidden">
+                                    <div
+                                        class="flex justify-center items-center w-full aspect-square bg-amber-200 rounded-full">
+                                        <div
+                                            class="flex justify-center items-center px-2 w-[70%] aspect-square bg-primary rounded-full backdrop-blur">
+                                            <img src="./assets/images/arrow-long-right.svg"
+                                                class="w-[40%] aspect-square">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our happy clients -->
+            <div class="flex flex-col gap-6 md:gap-10 items-center px-5 md:px-16 w-full">
+                <h2 class="font-extrabold text-2xl m2.5rem] md:leading-[3.25rem] text-secondary">Our Happy
+                    Clients</h2 class=":text-[">
+                <div class="flex w-full flex-col md:flex-row max-w-[1312px]">
+                    <div id="client-feedback-container"
+                        class="md:w-1/2 relative overflow-hidden flex justify-center items-center rounded-t-3xl md:rounded-tr-none md:rounded-l-[3.75rem] bg-primary-95 pt-12 pb-9 md:py-24 px-6 opacity-100">
+                        <div id="client-1"
+                            class="mx-6 md:mx-0 py-10 md:py-14 px-5 md:px-7 bg-primary text-secondary flex flex-col gap-7 md:gap-9 font-bricolage-grotesque justify-center max-w-[29.5rem] rounded-3xl transition-all duration-1000 absolute">
+                            <span class="text-lg lg:text-2xl font-semibold text-center">Working with DSV on our major
+                                project has
+                                been an incredible experience. We are now a long-term client with a major team. They
+                                achieve to keep good developers and conduct our project perfectly and rapidly. They know
+                                how to report and communicate with the client and other client teams.</span>
+                            <div class="flex flex-col gap-3 text-center">
+                                <span class="font-bold text-base md:text-[2rem]">Godefroy Split
+                                </span>
+                                <span class="font-semibold text-sm md:text-xl">Co-founder at Joyn’it</span>
+                            </div>
+                        </div>
+                        <div id="client-2"
+                            class="mx-6 md:mx-0 py-10 md:py-14 px-5 md:px-7 bg-red-300 text-secondary flex flex-col gap-7 md:gap-9 font-bricolage-grotesque justify-center max-w-[29.5rem] rounded-3xl transition-all duration-1000 opacity-0 absolute">
+                            <span class="text-lg lg:text-2xl font-semibold text-center">222222 with DSV on our major
+                                project has
+                                been an incredible experience. We are now a long-term client with a major team. They
+                                achieve to keep good developers and conduct our project perfectly and rapidly. They know
+                                how to report and communicate with the client and other client teams.</span>
+                            <div class="flex flex-col gap-3 text-center">
+                                <span class="font-bold text-base md:text-[2rem]">Godefroy Split
+                                </span>
+                                <span class="font-semibold text-sm md:text-xl">Co-founder at Joyn’it</span>
+                            </div>
+                        </div>
+                        <div id="client-3"
+                            class="mx-6 md:mx-0 py-10 md:py-14 px-5 md:px-7 bg-green-300 text-secondary flex flex-col gap-7 md:gap-9 font-bricolage-grotesque justify-center max-w-[29.5rem] rounded-3xl transition-all duration-1000 opacity-0 absolute">
+                            <span class="text-lg lg:text-2xl font-semibold text-center">333 with DSV on our major
+                                project has
+                                been an incredible experience. We are now a long-term client with a major team. They
+                                achieve to keep good developers and conduct our project perfectly and rapidly. They know
+                                how to report and communicate with the client and other client teams.</span>
+                            <div class="flex flex-col gap-3 text-center">
+                                <span class="font-bold text-base md:text-[2rem]">Godefroy Split
+                                </span>
+                                <span class="font-semibold text-sm md:text-xl">Co-founder at Joyn’it</span>
+                            </div>
+                        </div>
+                        <div id="client-4"
+                            class="mx-6 md:mx-0 py-10 md:py-14 px-5 md:px-7 bg-blue-300 text-secondary flex flex-col gap-7 md:gap-9 font-bricolage-grotesque justify-center max-w-[29.5rem] rounded-3xl transition-all duration-1000 opacity-0 absolute">
+                            <span class="text-lg lg:text-2xl font-semibold text-center">44444 with DSV on our major
+                                project has
+                                been an incredible experience. We are now a long-term client with a major team. They
+                                achieve to keep good developers and conduct our project perfectly and rapidly. They know
+                                how to report and communicate with the client and other client teams.</span>
+                            <div class="flex flex-col gap-3 text-center">
+                                <span class="font-bold text-base md:text-[2rem]">Godefroy Split
+                                </span>
+                                <span class="font-semibold text-sm md:text-xl">Co-founder at Joyn’it</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="md:w-1/2 flex justify-center items-center rounded-b-3xl md:rounded-bl-none md:rounded-r-[3.75rem] pb-12 pt-9 md:py-20 bg-secondary">
+                        <div
+                            class="relative w-[19rem] h-[19rem] lg:w-[33rem] lg:h-[33rem] border border-[#979797] rounded-full bg-transparent flex items-center justify-center lg:scale-[0.8] xl:scale-100">
+                            <img class="absolute top-3 left-20 lg:left-40 w-2 lg:w-3" src="./assets/images/dot.svg" />
+                            <img class="absolute bottom-36 lg:bottom-52 -left-2 w-3 lg:w-5"
+                                src="./assets/images/dot.svg" />
+                            <div
+                                class="w-12 h-12 lg:w-[5.5rem] lg:h-[5.5rem] absolute left-12 bottom-6 lg:left-20 lg:bottom-14 z-10 cursor-pointer">
+                                <img src="./assets/images/home/client3.png" class="rounded-full w-full h-full"
+                                    data-client_id="3" />
+                            </div>
+                            <div
+                                class="w-9 h-9 lg:w-16 lg:h-16 absolute -top-4 lg:-top-8 left-1/2 -translate-x-2/4 z-10 cursor-pointer">
+                                <img src="./assets/images/home/client2.png" class="rounded-full w-full h-full"
+                                    data-client_id="2" />
+                            </div>
+                            <div
+                                class="w-12 h-12 lg:w-[5.5rem] lg:h-[5.5rem] absolute right-4 bottom-14 z-10 cursor-pointer">
+                                <img src="./assets/images/home/client4.png" class="rounded-full w-full h-full"
+                                    data-client_id="4" />
+                            </div>
+                            <div
+                                class="relative w-64 h-64 lg:w-[28rem] w- lg:h-[28rem] border border-[#979797] rounded-full bg-transparent flex items-center justify-center border-dashed">
+                                <img class="absolute bottom-1 left-20 lg:left-36 w-2 lg:w-4"
+                                    src="./assets/images/dot.svg" />
+                                <img class="absolute right-1 lg:right-5 top-16 lg:top-24 w-4 lg:w-7"
+                                    src="./assets/images/dot.svg" />
+                                <div
+                                    class="w-10 h-10 lg:w-[4.5rem] lg:h-[4.5rem] absolute top-8 left-9 lg:top-20 z-10 cursor-pointer">
+                                    <img src="./assets/images/home/client2.png" class="rounded-full w-full h-full"
+                                        data-client_id="2" />
+                                </div>
+                                <div
+                                    class="relative w-52 h-52 lg:w-[23.25rem] lg:h-[23.25rem] border border-[#979797] rounded-full bg-transparent flex items-center justify-center">
+                                    <img class="absolute -bottom-2 lg:bottom-0 right-20 w-5 lg:w-9"
+                                        src="./assets/images/dot.svg" />
+                                    <img class="absolute -left-2 top-20  lg:top-32 w-4 lg:w-7"
+                                        src="./assets/images/dot.svg" />
+                                    <div
+                                        class="relative w-[10.5rem] h-[10.5rem] lg:w-[18.5rem] lg:h-[18.5rem] border border-[#979797] rounded-full bg-transparent flex items-center justify-center border-dashed">
+                                        <img class="absolute top-0 lg:top-4 right-11 lg:right-14 w-3 lg:w-[1.25rem]"
+                                            src="./assets/images/dot.svg" />
+                                        <img class="absolute bottom-4 lg:bottom-11 right-6 w-2 lg:w-4"
+                                            src="./assets/images/dot.svg" />
+                                        <div
+                                            class="relative w-[7.5rem] h-[7.5rem] lg:w-56 lg:h-56 border border-[#979797] rounded-full bg-transparent flex items-center justify-center">
+                                            <img class="absolute right-0 top-8 lg:top-16 w-2 lg:w-3"
+                                                src="./assets/images/dot.svg" />
+                                            <div
+                                                class="w-20 h-20 lg:w-36 lg:h-36 border-4 border-primary rounded-full cursor-pointer">
+                                                <img src="./assets/images/home/client1.png" data-client_id="1"
+                                                    class="rounded-full w-full h-full" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div
+                class="lg:w-[918px] m-auto px-5 md:px-20 lg:px-0 flex flex-col md:flex-row justify-between pb-14 md:pb-[7.5rem] md:items-end gap-6 md:gap-0 items-center w-full">
+                <div class="flex flex-col text-center md:text-left font-bricolage-grotesque">
+                    <span
+                        class="relative font-extrabold text-[2.75rem] md:text-[4.5rem] lg:text-[6rem] xl:text-[6.75rem] z-0">Got
+                        an idea?<img class="absolute right-0 -z-[1] top-0 w-[68px] md:w-[175px]"
+                            src="./assets/images/swap-contact.svg" /></span>
+                    <span
+                        class="font-medium text-xl md:text-[2.15rem] lg:text-[3rem] xl:text-[3.5rem] text-neutral-40 z-10">We
+                        can help you realize it. </span>
+                </div>
+                <button
+                    class="w-fit flex items-center gap-2 py-4 px-14 bg-secondary text-white text-base font-medium rounded-ee-2xl h-fit">
+                    Submit
+                </button>
+            </div>
+        </div>
+
+        @include("footer.html")
+    </div>
+    <script>
+        var swiper1 = new Swiper(".about-us", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            loop: true,
+            slidesPerView: "auto",
+            initialSlide: 1,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 5,
+                depth: 4000,
+                modifier: 1,
+                scale: 3.45,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+        new Swiper(".services", {
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+
+        if (window.innerWidth < 768) {
+            new Swiper(".project", {
+                slidesPerView: "auto",
+                spaceBetween: 30,
+                loop: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                },
+            });
+        } else {
+            new Swiper(".project", {
+                effect: "coverflow",
+                grabCursor: true,
+                centeredSlides: true,
+                loop: true,
+                slidesPerView: "auto",
+                spaceBetween: -10,
+                initialSlide: 1,
+                coverflowEffect: {
+                    rotate: 0,
+                    stretch: 0,
+                    depth: 0,
+                    modifier: 1,
+                    scale: 0.8,
+                    slideShadows: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                },
+            });
+        }
+        var swiper = new Swiper(".our-clients", {
+            loop: true,
+            slidesPerView: "auto",
+            speed: 2000,
+            freeMode: true,
+            autoplay: {
+                delay: 0.1,
+                disableOnInteraction: false,
+            }
+        });
+
+        var thirdPartyVerifySwiper = new Swiper(".third-party-verification", {
+            loop: true,
+            slidesPerView: 'auto',
+            speed: 2000,
+            freeMode: true,
+            autoplay: {
+                delay: 0.1,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
+</body>
+
+</html>

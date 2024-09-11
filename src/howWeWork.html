@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/main.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/dist/main.js"></script>
+    <style type="text/css" name="inline">
+    </style>
+</head>
+
+<body>
+    <div>
+        @include("header.html")
+        <div class="min-h-screen flex flex-col items-center overflow-hidden">
+            <!-- Banner -->
+            <div class="relative flex justify-center w-full gap-10">
+                <div class="absolute bg-primary top-0 left-0 right-0 h-[84%] z-0 max-lg:h-[86%]"></div>
+                <div class="absolute bg-[#272D36] bottom-0 left-0 right-0 h-[16%] max-lg:h-[14%] -z-50"></div>
+                <svg class="absolute bottom-[16%] max-lg:hidden left-[43px] w-[30%] max-w-[450px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 446 252" fill="none">
+                    <path d="M425.182 288.724C474.029 210.508 431.126 123.656 356.537 73.1422C281.948 22.6283 210.351 -5.18438 89.8168 0.803455C-30.7175 6.79129 5.27719 25.2226 5.27719 25.2226C5.27719 25.2226 147.383 94.5863 79.9178 174.378C46.0045 212.89 -22.0303 186.031 35.7403 297.463C93.5108 408.896 217.887 471.531 263.424 449.681C308.961 427.832 357.288 397.438 425.182 288.724Z" fill="#FFF6DE" fill-opacity="0.35"/>
+                </svg>
+                <div class="lg:max-w-[926px] w-full max-lg:gap-6 z-[1] gap-10 max-lg:px-5 flex justify-center max-lg:flex-col pt-[72px] max-lg:pt-[36px]">
+                    <div class="flex flex-col gap-3 lg:gap-4 lg:max-w-[35.8%] pt-[64px] pb-[160px] max-lg:items-center max-lg:pt-0 max-lg:pb-0 max-lg:pb-0 max-lg:pt-0">
+                        <h2 class="font-[700] text-[32px] leading-[40px] lg:text-[48px] lg:leading-[60px] text-secondary">How we work</h2>
+                        <span class="text-base font-[400] max-lg:text-center">
+                            We work with enterprising start-ups and innovative businesses from all over the world. By applying our professional techniques: Agile & Scrum, Pair-Programing, Pomodoro, and weekly Workshop, we climb every high rock, we join hands to create impactful technology solutions, and to help every client come and leave with a significant transformation.
+                        </span>
+                    </div>
+                    <div class="relative w-full gap-3 max-md:gap-2 flex h-full">
+                        <div class="w-[40.5%] flex flex-col items-end max-md:gap-2 gap-3 max-lg:pb-[8%]">
+                            <div class="w-full rounded-tl-[19px] overflow-hidden">
+                                <img alt="banner-1" class="w-full h-full" src="./assets/images/howWeWork/img-banner-1.png"/>
+                            </div>
+                            <div class="w-[73.5%] rounded-bl-[19px] overflow-hidden">
+                                <img alt="banner-4" class="w-full h-full" src="./assets/images/howWeWork/img-banner-3.png"/>
+                            </div>
+                        </div>
+                        <div class="flex-1 flex flex-col justify-end max-md:gap-2 gap-3">
+                            <div class="w-[75.5%] rounded-tr-[19px] overflow-hidden">
+                                <img alt="banner-2" class="w-full h-full" src="./assets/images/howWeWork/img-banner-2.png"/>
+                            </div>
+                            <div class="rounded-br-[19px] overflow-hidden">
+                                <img alt="banner-3" class="w-full h-full" src="./assets/images/howWeWork/img-banner-4.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Founder -->
+           
+            <div class="flex flex-col items-center gap-10 max-md:gap-6 pt-[80px] pb-[120px] w-full max-md:px-5 max-md:py-[56px] bg-[#272D36]">
+                <div class="flex flex-col justify-center items-center gap-6 max-md:gap-4 max-w-[918px]">
+                    <h2 class="text-white text-[44px] leading-[52px] max-md:text-[24px] leading-[30px] font-[700]">Agile & Scrum</h2>
+                    <span class="text-white text-center font-[400]">
+                        We choose Agile & Scrum methods, a disciplined project management process that encourages frequent inspection and adaptation, a leadership philosophy that encourages teamwork, self-organization and accountability, a set of engineering best practices intended to allow for rapid delivery of high-quality software, and a business approach that aligns development with customer needs and company goals.
+                    </span>
+                </div>
+                <div class="max-w-[1090px]">
+                    <img alt="agile" class="w-full h-full" src="./assets/images/howWeWork/agile.png"/>
+                </div>
+            </div>
+            <div class="py-[120px] text-[#191E26] max-md:py-[40px] flex flex-col items-center gap-10 max-md:gap-6">
+                <div class="flex flex-col gap-4 md:gap-6 max-w-[680px] items-center">
+                    <h2 class="font-[700] max-md:text-[24px] max-md:leading-[30px] md:text-[44px] md:leading-[52px] text-secondary">Pomodoro</h2>
+                    <span class="text-base text-center font-[400]">
+                        This time management method has been widely popularized by dozens of apps and websites providing timers and instructions. Closely related to concepts such as timeboxing and iterative and incremental development used in software design. It helps maximum focus and creative freshness, thereby allowing programmers to complete projects faster with less mental fatigue.
+                    </span>
+                </div>
+                <div class="max-w-[1148px] max-md:-mt-[10px] max-md:w-full max-md:px-[10px] flex flex-wrap justify-center gap-[34px] max-md:gap-0">
+                    <div class="max-md:w-1/2 max-md:px-[10px] max-md:py-[10px]">
+                        <div class="lg:min-w-[284px] p-6 rounded-6 hover:bg-[#FFEDBC] cursor-pointer max-md:p-4 max-md:rounded-4 gap-3 max-md:gap-2 bg-[#FFF6DE] flex flex-col items-center rounded-[24px]">
+                            <p class="font-bricolage-grotesque text-[#AA7E00] font-[800] text-[64px] leading-[76px] max-md:font-[700] max-md:text-[40px] max-md:leading-[48px]">01</p>
+                            <div class="w-[120px] h-[120px] max-md:w-[80px] max-md:h-[80px]">
+                                <img class="w-full h-full rounded-[24px]" alt="Hình decide" src="./assets/images/howWeWork/img-decide.png"/>
+                            </div>
+                            <div class="flex flex-col gap-2 max-md:gap-0 items-center text-[#191E26]">
+                                <h5 class="font-[700] text-[32px] leading-[40px] max-md:text-[20px] max-md:leading-[28px]">Decide</h5>
+                                <span class="text-[16px] leading-[24px] font-[400] max-md:text-[14px] text-center">Decide on the task to be done</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-md:w-1/2 max-md:px-[10px] max-md:py-[10px]">
+                        <div class="lg:min-w-[284px] p-6 rounded-6 hover:bg-[#FFEDBC] cursor-pointer max-md:p-4 max-md:rounded-4 gap-3 max-md:gap-2 bg-[#FFF6DE] flex flex-col items-center rounded-[24px]">
+                            <p class="font-bricolage-grotesque text-[#AA7E00] font-[800] text-[64px] leading-[76px] max-md:font-[700] max-md:text-[40px] max-md:leading-[48px]">02</p>
+                            <div class="w-[120px] h-[120px] max-md:w-[80px] max-md:h-[80px]">
+                                <img class="w-full h-full rounded-[24px]" alt="Hình timer" src="./assets/images/howWeWork/img-timer.png"/>
+                            </div>
+                            <div class="flex flex-col gap-2 max-md:gap-0 items-center text-[#191E26]">
+                                <h5 class="font-[700] text-[32px] leading-[40px] max-md:text-[20px] max-md:leading-[28px]">Timer</h5>
+                                <span class="text-[16px] leading-[24px] font-[400] max-md:text-[14px] text-center">Set the timer to 25 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-md:w-1/2 max-md:px-[10px] max-md:py-[10px]">
+                        <div class="lg:min-w-[284px] p-6 rounded-6 hover:bg-[#FFEDBC] cursor-pointer max-md:p-4 max-md:rounded-4 gap-3 max-md:gap-2 bg-[#FFF6DE] flex flex-col items-center rounded-[24px]">
+                            <p class="font-bricolage-grotesque text-[#AA7E00] font-[800] text-[64px] leading-[76px] max-md:font-[700] max-md:text-[40px] max-md:leading-[48px]">03</p>
+                            <div class="w-[120px] h-[120px] max-md:w-[80px] max-md:h-[80px]">
+                                <img class="w-full h-full rounded-[24px]" alt="Hình timer" src="./assets/images/howWeWork/img-work.png"/>
+                            </div>
+                            <div class="flex flex-col gap-2 max-md:gap-0 items-center text-[#191E26]">
+                                <h5 class="font-[700] text-[32px] leading-[40px] max-md:text-[20px] max-md:leading-[28px]">Work</h5>
+                                <span class="text-[16px] leading-[24px] font-[400] max-md:text-[14px] text-center">Work until the timer ring</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="max-md:w-1/2 max-md:px-[10px] max-md:py-[10px]">
+                        <div class="lg:min-w-[284px] p-6 rounded-6 hover:bg-[#FFEDBC] cursor-pointer max-md:p-4 max-md:rounded-4 gap-3 max-md:gap-2 bg-[#FFF6DE] flex flex-col items-center rounded-[24px]">
+                            <p class="font-bricolage-grotesque text-[#AA7E00] font-[800] text-[64px] leading-[76px] max-md:font-[700] max-md:text-[40px] max-md:leading-[48px]">04</p>
+                            <div class="w-[120px] h-[120px] max-md:w-[80px] max-md:h-[80px]">
+                                <img class="w-full h-full rounded-[24px]" alt="break" src="./assets/images/howWeWork/img-break.png"/>
+                            </div>
+                            <div class="flex flex-col gap-2 max-md:gap-0 items-center text-[#191E26]">
+                                <h5 class="font-[700] text-[32px] leading-[40px] max-md:text-[20px] max-md:leading-[28px]">Break</h5>
+                                <span class="text-[16px] leading-[24px] font-[400] max-md:text-[14px] text-center">Take a short 5 minute break</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="max-md:w-1/2 max-md:px-[10px] max-md:py-[10px]">
+                        <div class="lg:min-w-[284px] p-6 rounded-6 hover:bg-[#FFEDBC] cursor-pointer max-md:p-4 max-md:rounded-4 gap-3 max-md:gap-2 bg-[#FFF6DE] flex flex-col items-center rounded-[24px]">
+                            <p class="font-bricolage-grotesque text-[#AA7E00] font-[800] text-[64px] leading-[76px] max-md:font-[700] max-md:text-[40px] max-md:leading-[48px]">05</p>
+                            <div class="w-[120px] h-[120px] max-md:w-[80px] max-md:h-[80px]">
+                                <img class="w-full h-full rounded-[24px]" alt="bread" src="./assets/images/howWeWork/img-bread.png"/>
+                            </div>
+                            <div class="flex flex-col gap-2 max-md:gap-0 items-center text-[#191E26]">
+                                <h5 class="font-[700] text-[32px] leading-[40px] max-md:text-[20px] max-md:leading-[28px]">15-30</h5>
+                                <span class="text-[16px] leading-[24px] font-[400] max-md:text-[14px] text-center">Take a 15-30 minutes break</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  We alway -->
+            <div class="flex flex-col max-md:pt-0 w-full gap-[80px] max-md:gap-[40px] pb-[160px] max-md:pb-[80px]">
+                <div class="flex flex-col gap-6 md:gap-10 items-center px-5 md:px-16 w-full max-md:bg-transparent">
+                    <div class="flex items-center max-w-[1212px] max-md:w-full max-md:gap-5 max-md:flex-col">
+                        <div class="flex-1 flex items-center justify-center">
+                            <div class="w-[59%] flex max-md:w-full flex-col gap-6 max-md:text-center max-md:gap-3">
+                                <h3 class="text-[#191E26] text-[44px] font-bold leading-[52px] max-md:text-2xl">Pair programing</h3>
+                                <span class="text-base text-[#3C2C00]">
+                                    Pair programming is an agile software development technique in which two programmers work together at one workstation. The biggest advantage of pair programming is increasing both productivity and satisfaction of programmers. When pair-programming, the programmers consider a larger number of ways of solving the problem than a single programmer alone might do. This significantly improves the design quality of the program as it reduces the chances of selecting a poor method.
+                                </span>
+                            </div>
+                        </div>  
+                        <div class="flex-1 max-md:w-full">
+                            <div class="w-full relative">
+                                <img alt="Hình card" src="./assets/images/howWeWork/item1.png" class="rounded-3xl w-full h-full"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-6 md:gap-10 items-center px-5 md:px-16 w-full max-md:bg-transparent">
+                    <div class="flex items-center max-w-[1212px] max-md:w-full max-md:gap-5 max-md:flex-col">
+                        <div class="flex-1 max-md:order-2 max-md:w-full">
+                            <div class="w-full relative">
+                                <img alt="Hình card" src="./assets/images/howWeWork/item2.png" class="rounded-3xl w-full h-full"/>
+                            </div>
+                        </div>
+                        <div class="flex-1 flex items-center justify-center">
+                            <div class="w-[59%] flex max-md:w-full flex-col gap-6 max-md:text-center max-md:gap-3">
+                                <h3 class="text-[#191E26] text-[44px] font-bold leading-[52px] max-md:text-2xl">Weekly workshop</h3>
+                                <span class="text-base text-[#3C2C00]">
+                                    In order to maintain our friendly and open-minded working environment, we throw internal workshop every week. This is the chance for DSV staffs from all levels and functions to meet up and share their valuable knowledge and experience together, enhance employee connection and boost work efficiency.
+                                </span>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Third Party Verification -->
+            <div class="lg:w-[918px] m-auto px-5 md:px-20 lg:px-0 flex flex-col md:flex-row justify-between pb-14 md:pb-[7.5rem] md:items-end gap-6 md:gap-0 items-center w-full">
+                <div class="flex flex-col text-center md:text-left font-bricolage-grotesque">
+                    <span class="relative font-extrabold text-[2.75rem] md:text-[4.5rem] lg:text-[6rem] lg:text-[6.75rem] z-0">Got
+                        an idea?<img alt="Hình contact" class="absolute right-0 -z-[1] top-0 w-[68px] md:w-[175px]" src="./assets/images/swap-contact.svg"></span>
+                    <span class="font-medium text-xl md:text-[2.15rem] lg:text-[3rem] lg:text-[3.5rem] text-neutral-40 z-10">We
+                        can help you realize it. </span>
+                </div>
+                <button class="w-fit flex items-center gap-2 py-4 px-14 bg-secondary text-white text-base font-medium rounded-ee-2xl h-fit">
+                    Submit
+                </button>
+            </div>
+        </div>
+
+        @include("footer.html")
+    </div>
+    <script>
+       
+       function showElement(idShow, idHide) {
+            $(`#${idShow}`).addClass("opacity-100");
+            $(`#${idHide}`).removeClass("opacity-100");
+            $(`#${idHide}`).addClass("opacity-0");
+            $(`#${idShow}`).removeClass("opacity-0");
+        }
+        function swapNodes(node1, node2) {
+            const temp = document.createComment("");
+            node2.replaceWith(temp);
+            node1.replaceWith(node2);
+            temp.replaceWith(node1);
+        }
+        $(function () {
+            $("[data-client_id]").on("click", function () {
+                const hideElement = $(".border-primary>[data-client_id]");
+                const idShow = `client-${$(this).data("client_id")}`;
+                const idHide = `client-${hideElement.data("client_id")}`;
+                if (idHide == idShow) {
+                    return;
+                }
+                swapNodes(hideElement[0], this);
+                showElement(idShow, idHide);
+            });
+
+            let maxHeight = 0;
+
+            $("[id^='client']").each(function () {
+                this.clientHeight > maxHeight && (maxHeight = this.clientHeight);
+            });
+
+            $("style[name='inline']").text(`
+                @media (max-width: 767px) { 
+                    #client-feedback-container{
+                        height: ${maxHeight + 96}px;
+                    }
+                 }
+            `);
+        });
+
+        // Handle scroll change background-color header
+        $(window).scroll(function () {
+            var scrollPosition = $(this).scrollTop();
+            if (scrollPosition > 100) {
+                $("#header__nav").css("background", "linear-gradient(180deg, #FFFFFF 42.5%, rgba(255, 255, 255, 0) 149.38%)");
+                $("#header__nav-logo").attr("src", "./assets/images/logo-icon.svg");
+            } else {
+                $("#header__nav").css("background", "#fff");
+                $("#header__nav-logo").attr("src", "./assets/images/logo.png");
+            }
+            // Close header nav when scroll
+            $("#header__nav-mobile").css("display", "none");
+        });
+
+        // Toggle menu for mobile
+        $("#header__control-menu").on("click", function () {
+            $("#header__nav-mobile").css("display", "block");
+        })
+
+        // Close header
+        $("#header__control-close").on("click", function () {
+            $("#header__nav-mobile").css("display", "none");
+        })
+
+        // Toggle menu services mobile
+        $("#services__control-menu").on("click", function () {
+            $("#services__menu").css("display", "block");
+            $("#header__menu").css("display", "none");
+        })
+
+        // Go back main menu
+        $("#go-back-menu").on("click", function () {
+            $("#services__menu").css("display", "none");
+            $("#header__menu").css("display", "block");
+        })
+
+        // Get height header
+        $("#services__dropdown").css("top", `${$("#header__nav").outerHeight() - 1}px`);
+
+        $(".services-menu").hover(
+            function () {
+                $('.image-estimate').addClass('hidden');
+            }, function () {
+                $('.image-estimate').removeClass('hidden');
+            }
+        );
+        // Show list service header
+        $(function () {
+            $("[data-service_id]").on("click", function () {
+                const hideElement = $(".opacity-100[id^=service-]");
+                const idShow = `service-${$(this).data("service_id")}`;
+                const idHide = `service-${hideElement.data("service_id")}`;
+
+                console.log(idHide, idShow);
+                if (idHide == idShow) {
+                    return;
+                }
+                // swapNodes(hideElement[0], this);
+                showElement(idShow, idHide);
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/main.css" rel="stylesheet">
+    <script src="/dist/main.js"></script>
+</head>
+
+<body>
+    <div>
+        @include("header.html")
+        <div class="min-h-screen bg-white overflow-hidden">
+            <div class="lg:w-[918px] m-auto px-5 md:px-20 lg:px-0 pt-8 md:pt-20 flex flex-col gap-6">
+                <!-- Title blog -->
+                <div class="flex flex-col text-secondary gap-2 md:gap-[0.625rem]">
+                    <span class="font-bold text-2xl md:text-[2rem] font-bricolage-grotesque">Designveloper Blog</span>
+                    <span class="text-lg">Articles on Customer Service, AI and Automation, Product, and more</span>
+                </div>
+                <div class="flex gap-4 md:gap-8 flex-col md:flex-row md:pb-12 md:border-b border-[#B2BECF]">
+                    <div class="flex-1 flex flex-col gap-2">
+                        <div class="rounded-xl bg-primary p-5 mb-1 flex">
+                            <div class="flex flex-col gap-[0.625rem] md:gap-[3.75rem]">
+                                <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                    <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                    <span class="uppercase text-base text-white">/BLOG</span>
+                                </div>
+                                <span class="text-lg md:text-[1.65rem] font-bold uppercase">Top startup project
+                                    management methods</span>
+                                <span class="font-medium text-[0.625rem]">www.designveloper.com</span>
+                            </div>
+                            <div class="relative w-full max-w-[164px] scale-125 md:scale-100 -mb-20 md:mb-0">
+                                <div class="pb-[122%]"></div>
+                                <img alt="name" src="./assets/images/blogs/banner.svg"
+                                    class="absolute inset-0 w-full h-full object-contain" />
+                            </div>
+                        </div>
+                        <span class="uppercase text-sm text-[#3B4350]">MOBILE APP DEVELOPMENT </span>
+                        <span class="font-semibold text-base text-secondary">An Ultimate Guide to eWallet App
+                            Development in 2024</span>
+                        <span class="text-sm text-secondary">Discover the future of eWallet app development in our
+                            ultimate 2024 guide. Learn key impacts, examples, and tips for development success. </span>
+                    </div>
+                    <div class="w-80">
+                        <span class="text-sm py-2 block text-neutral-40 font-medium border-b border-[#B2BECF]">Jump
+                            to</span>
+                        <div
+                            class="w-full flex gap-2 py-2 text-secondary cursor-pointer border-b border-[#B2BECF] justify-between items-center">
+                            <span class="text-base font-semibold">The Lasted</span><img alt="name"
+                                src="./assets/images/arrow-long-down.svg" />
+                        </div>
+                        <div
+                            class="w-full flex gap-2 py-2 text-secondary cursor-pointer border-b border-[#B2BECF] justify-between items-center">
+                            <span class="text-base font-semibold">Website Development</span><img alt="name"
+                                src="./assets/images/arrow-long-down.svg" />
+                        </div>
+                        <div
+                            class="w-full flex gap-2 py-2 text-secondary cursor-pointer border-b border-[#B2BECF] justify-between items-center">
+                            <span class="text-base font-semibold">eCommerce Development</span><img alt="name"
+                                src="./assets/images/arrow-long-down.svg" />
+                        </div>
+                        <div class="w-full flex gap-2 py-2 text-secondary cursor-pointer justify-between items-center">
+                            <span class="text-base font-semibold">Mobile App Development</span><img alt="name"
+                                src="./assets/images/arrow-long-down.svg" />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The lasted -->
+                <div class="the-lasted relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">The lasted </span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper the-lasted-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- Filters and search -->
+                <div class="flex gap-4 md:gap-8 justify-between flex-col md:flex-row">
+                    <div class="flex flex-col gap-2 md:gap-4 flex-1">
+                        <span
+                            class="font-bricolage-grotesque md:font-bold text-neutral-40 text-sm md:text-xl uppercase">FIlters</span>
+                        <div class="flex flex-wrap gap-2">
+                            <div class="text-white bg-secondary p-2 pr-6 flex gap-2 rounded-lg">
+                                <img alt="name" src="./assets/images/blogs/check.svg" />
+                                <span class="font-semibold text-sm">All</span>
+                            </div>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">Website
+                                Development</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">Web
+                                Application Development</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">Techlife</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">Software
+                                Development</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">Software
+                                Project Management</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">Mobile
+                                App Development</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">eCommerce
+                                Development</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">DSV
+                                Universe</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">Design
+                                World</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">Chatbot
+                                Development</span>
+                            <span
+                                class="font-medium md:font-semibold text-sm rounded-lg text-secondary bg-white pt-[0.35rem] pb-1 px-6 border border-secondary block">Best
+                                Companies</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2 md:gap-4 w-full md:w-[20.25rem]">
+                        <span
+                            class="font-bricolage-grotesque font-bold text-neutral-40 text-sm md:text-xl">Search</span>
+                        <div class="border border-[#7F8B9C] rounded-2xl w-full flex items-center">
+                            <label for="input-search" class="p-4"><img alt="name" class=""
+                                    src="./assets/images/blogs/search.svg" /></label>
+                            <input id="input-search"
+                                class="placeholder:text-[#3B4350] text-base p-4 pl-0 flex-1 rounded-2xl outline-none text-secondary"
+                                placeholder="I want to read about..." />
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 md:gap-x-4 gap-y-6">
+                    <div class="flex flex-col gap-1 h-auto">
+                        <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                            <div class="flex flex-col gap-3 text-secondary">
+                                <div class="py-1 px-2 bg-secondary flex w-fit">
+                                    <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                    <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                </div>
+                                <span class="text-sm font-bold uppercase">Top startup project
+                                    management methods</span>
+                                <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                            </div>
+                            <div class="relative w-full h-[150px] -mb-5">
+                                <div class="pb-[122%]"></div>
+                                <img alt="name" src="./assets/images/blogs/banner.svg"
+                                    class="absolute inset-0 w-full h-full object-contain" />
+                            </div>
+                        </div>
+                        <span class="text-xs text-[#3B4350] mt-2">MOBILE APP DEVELOPMENT</span>
+                        <span class="font-semibold text-sm text-secondary">An Ultimate Guide to eWallet App
+                            Development in 2024</span>
+                        <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                        </span>
+                    </div>
+                    <div class="flex flex-col gap-1 h-auto">
+                        <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                            <div class="flex flex-col gap-3 text-white">
+                                <div class="py-1 px-2 bg-white flex w-fit">
+                                    <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                    <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                </div>
+                                <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                    ecosystems</span>
+                                <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                            </div>
+                            <div class="relative w-full h-[150px] -mb-5">
+                                <div class="pb-[122%]"></div>
+                                <img alt="name" src="./assets/images/blogs/banner.svg"
+                                    class="absolute inset-0 w-full h-full object-contain" />
+                            </div>
+                        </div>
+                        <span class="text-xs text-[#3B4350] mt-2">Best Companies</span>
+                        <span class="font-semibold text-sm text-secondary">An Ultimate Guide to eWallet App
+                            Development in 2024</span>
+                        <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                        </span>
+                    </div>
+                    <div class="flex flex-col gap-1 h-auto">
+                        <div class="rounded-xl bg-[#E7F0FF] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                            <div class="flex flex-col gap-3">
+                                <div class="py-1 px-2 bg-secondary flex w-fit">
+                                    <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                    <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                </div>
+                                <span class="text-sm font-bold uppercase">Top startup project
+                                    management methods</span>
+                                <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                            </div>
+                            <div class="relative w-full h-[150px] -mb-5">
+                                <div class="pb-[122%]"></div>
+                                <img alt="name" src="./assets/images/blogs/banner.svg"
+                                    class="absolute inset-0 w-full h-full object-contain" />
+                            </div>
+                        </div>
+                        <span class="text-xs text-[#3B4350] mt-2">eCommerce Development</span>
+                        <span class="font-semibold text-sm text-secondary">An Ultimate Guide to eWallet App
+                            Development in 2024</span>
+                        <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                        </span>
+                    </div>
+                    <div class="flex flex-col gap-1 h-auto">
+                        <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                            <div class="flex flex-col gap-3 text-secondary">
+                                <div class="py-1 px-2 bg-secondary flex w-fit">
+                                    <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                    <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                </div>
+                                <span class="text-sm font-bold uppercase">Top startup project
+                                    management methods</span>
+                                <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                            </div>
+                            <div class="relative w-full h-[150px] -mb-5">
+                                <div class="pb-[122%]"></div>
+                                <img alt="name" src="./assets/images/blogs/banner.svg"
+                                    class="absolute inset-0 w-full h-full object-contain" />
+                            </div>
+                        </div>
+                        <span class="text-xs text-[#3B4350] mt-2">MOBILE APP DEVELOPMENT</span>
+                        <span class="font-semibold text-sm text-secondary">An Ultimate Guide to eWallet App
+                            Development in 2024</span>
+                        <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                        </span>
+                    </div>
+                    <div class="flex flex-col gap-1 h-auto">
+                        <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                            <div class="flex flex-col gap-3 text-white">
+                                <div class="py-1 px-2 bg-white flex w-fit">
+                                    <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                    <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                </div>
+                                <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                    ecosystems</span>
+                                <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                            </div>
+                            <div class="relative w-full h-[150px] -mb-5">
+                                <div class="pb-[122%]"></div>
+                                <img alt="name" src="./assets/images/blogs/banner.svg"
+                                    class="absolute inset-0 w-full h-full object-contain" />
+                            </div>
+                        </div>
+                        <span class="text-xs text-[#3B4350] mt-2">Best Companies</span>
+                        <span class="font-semibold text-sm text-secondary">An Ultimate Guide to eWallet App
+                            Development in 2024</span>
+                        <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                        </span>
+                    </div>
+                    <div class="flex flex-col gap-1 h-auto">
+                        <div class="rounded-xl bg-[#E7F0FF] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                            <div class="flex flex-col gap-3">
+                                <div class="py-1 px-2 bg-secondary flex w-fit">
+                                    <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                    <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                </div>
+                                <span class="text-sm font-bold uppercase">Top startup project
+                                    management methods</span>
+                                <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                            </div>
+                            <div class="relative w-full h-[150px] -mb-5">
+                                <div class="pb-[122%]"></div>
+                                <img alt="name" src="./assets/images/blogs/banner.svg"
+                                    class="absolute inset-0 w-full h-full object-contain" />
+                            </div>
+                        </div>
+                        <span class="text-xs text-[#3B4350] mt-2">eCommerce Development</span>
+                        <span class="font-semibold text-sm text-secondary">An Ultimate Guide to eWallet App
+                            Development in 2024</span>
+                        <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                        </span>
+                    </div>
+                    <div class="flex flex-col gap-1 h-auto">
+                        <div class="rounded-xl bg-[#E7F0FF] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                            <div class="flex flex-col gap-3">
+                                <div class="py-1 px-2 bg-secondary flex w-fit">
+                                    <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                    <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                </div>
+                                <span class="text-sm font-bold uppercase">Top startup project
+                                    management methods</span>
+                                <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                            </div>
+                            <div class="relative w-full h-[150px] -mb-5">
+                                <div class="pb-[122%]"></div>
+                                <img alt="name" src="./assets/images/blogs/banner.svg"
+                                    class="absolute inset-0 w-full h-full object-contain" />
+                            </div>
+                        </div>
+                        <span class="text-xs text-[#3B4350] mt-2">eCommerce Development</span>
+                        <span class="font-semibold text-sm text-secondary">An Ultimate Guide to eWallet App
+                            Development in 2024</span>
+                        <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Website Development -->
+                <div class="website-development relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">Website
+                            Development</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper website-development-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- Web Application Development -->
+                <div class="web-application-development relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">Web Application
+                            Development</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper web-application-development-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div
+                                class="swiper-slide w-[17.5rem] md:w-fit flex items-center justify-center flex-col h-auto border border-[#98A4B5] rounded-2xl">
+                                <div class="py-4 px-2"><img alt="name" class="w-9"
+                                        src="./assets/images/arrow-long-right.svg" />
+                                </div>
+                                <span class="text-base text-[#272D36]">Load more articles</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- Techlife -->
+                <div class="techlife relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">Techlife</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper techlife-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- Subcribe -->
+                <div
+                    class="border-y border-[#B2BECF] py-6 md:py-12 w-full flex flex-col md:flex-row justify-between items-center gap-4 md:gap-8">
+                    <span class="font-semibold text-lg text-secondary">Insights worth keeping. Get them weekly.</span>
+                    <div class="flex flex-col md:flex-row gap-2 md:gap-0 w-full md:w-auto">
+                        <span
+                            class="block p-4 pr-7 bg-white text-[#3B4350] border border-[#7F8B9C] text-base text-nowrap">Enter
+                            your email address</span>
+                        <button class="block py-4 px-14 bg-secondary text-white rounded-ee-2xl">Subcribe</button>
+                    </div>
+                </div>
+
+                <!-- Software Development -->
+                <div class="software-development relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">Software
+                            Development</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper software-development-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- Software Project Management -->
+                <div class="software-project-management relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">Software Project
+                            Management</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper software-project-management-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- Mobile App Development -->
+                <div class="mobile-app-development relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">Mobile App
+                            Development</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper mobile-app-development-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- eCommerce Development -->
+                <div class="eCommerce-development relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">eCommerce
+                            Development</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper eCommerce-development-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- DSV Universe -->
+                <div class="relative flex flex-col gap-4 w-full">
+                    <span class="font-bricolage-grotesque text-xl font-bold text-secondary text-center">DSV
+                        Universe</span>
+                    <div class="flex gap-8 flex-col md:flex-row">
+                        <div class="flex-1 flex flex-col gap-2">
+                            <img class="max-h-[19.75rem] rounded-xl object-cover" src="./assets/images/blogs/dsv.png" />
+                            <span class="mt-1 text-[#3B4350] text-sm uppercase">MOBILE APP DEVELOPMENT</span>
+                            <span class="text-secondary text-base font-semibold">Strong Bear – CEO of
+                                Designveloper</span>
+                            <span class="text-secondary text-sm">Discover the future of eWallet app development in our
+                                ultimate 2024 guide. Learn key impacts, examples, and tips for development success.
+                            </span>
+                        </div>
+                        <div class="md:w-[20.25rem] flex flex-col gap-4 w-full">
+                            <img class="w-full rounded-2xl md:block hidden"
+                                src="./assets/images/blogs/dsv-universe.svg" />
+                            <div class="flex flex-col gap-1">
+                                <img class="w-full rounded-2xl max-h-[11.5rem]" src="./assets/images/blogs/dsv1.png" />
+                                <span class="mt-2 font-semibold text-sm text-secondary">Ha Truong: “Live With Desires
+                                    And Try Your Best”</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dsv-universe flex flex-col gap-4 items-center w-full">
+                        <div class="swiper dsv-universe-swipper w-full">
+                            <div class="swiper-wrapper ease-linear">
+                                <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                    <img class="w-full rounded-2xl md:h-[11.5rem] h-40 object-cover"
+                                        src="./assets/images/blogs/dsv2.png" />
+                                    <span class="mt-2 font-semibold text-sm text-secondary">Thuý Ngân, “Bánh bèo” from
+                                        “Làng Dev” interning at DSV</span>
+                                    <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                    </span>
+                                </div>
+                                <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                    <img class="w-full rounded-2xl md:h-[11.5rem] h-40 object-cover"
+                                        src="./assets/images/blogs/dsv3.png" />
+                                    <span class="mt-2 font-semibold text-sm text-secondary">Cong Pham: “It’s Like a
+                                        Long-term Relationship!”</span>
+                                    <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                    </span>
+                                </div>
+                                <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                    <img class="w-full rounded-2xl md:h-[11.5rem] h-40 object-cover"
+                                        src="./assets/images/blogs/dsv4.png" />
+                                    <span class="mt-2 font-semibold text-sm text-secondary">Keywords You Should Know
+                                        When Working at Designveloper</span>
+                                    <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-secondary text-white rounded-full swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left-white.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-secondary text-white rounded-full swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right-white.svg" />
+                            </div>
+                        </div>
+                        <img class="w-full rounded-2xl block md:hidden" src="./assets/images/blogs/dsv-universe.png" />
+                    </div>
+                </div>
+
+                <!-- Design world -->
+                <div class="design-world relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">Design world</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper design-world-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- Chatbot Development -->
+                <div class="chatbot-development relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">Chatbot
+                            Development</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper chatbot-development-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- Best Companies -->
+                <div class="best-companies relative flex flex-col gap-4 w-full">
+                    <div class="flex justify-between items-end">
+                        <span class="font-bricolage-grotesque text-xl font-bold text-secondary">Best Companies</span>
+                        <div class="flex gap-4">
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-prev">
+                                <img alt="name" src="./assets/images/blogs/arrow-left.svg" />
+                            </div>
+                            <div role="button"
+                                class="flex justify-center items-center w-10 h-10 bg-white rounded-full border border-[#3B4350] swiper-button-next">
+                                <img alt="name" src="./assets/images/blogs/arrow-right.svg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper best-companies-swipper w-full">
+                        <div class="swiper-wrapper ease-linear">
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-secondary">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-[#3B4350] p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3 text-white">
+                                        <div class="py-1 px-2 bg-white flex w-fit">
+                                            <img alt="name" src="./assets/images/blogs/logo-black.svg" />
+                                            <span class="uppercase text-xs font-bold text-secondary">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">A detailed guide to fintech
+                                            ecosystems</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                            <div class="swiper-slide w-[17.5rem] md:w-fit flex flex-col gap-1 h-auto">
+                                <div class="rounded-xl bg-primary p-5 pr-7 mb-1 flex h-[10.5rem]">
+                                    <div class="flex flex-col gap-3">
+                                        <div class="py-1 px-2 bg-secondary flex w-fit   ">
+                                            <img alt="name" src="./assets/images/blogs/logo.svg" />
+                                            <span class="uppercase text-xs font-bold text-white">/BLOG</span>
+                                        </div>
+                                        <span class="text-sm font-bold uppercase">Top startup project
+                                            management methods</span>
+                                        <span class="font-medium text-[0.5rem]">www.designveloper.com</span>
+                                    </div>
+                                    <div class="relative w-full h-[150px] -mb-5">
+                                        <div class="pb-[122%]"></div>
+                                        <img alt="name" src="./assets/images/blogs/banner.svg"
+                                            class="absolute inset-0 w-full h-full object-contain" />
+                                    </div>
+                                </div>
+                                <span class="font-semibold text-sm text-secondary mt-2">An Ultimate Guide to eWallet App
+                                    Development in 2024</span>
+                                <span class="text-xs text-[#3B4350]">Published mmm dd, yyyy
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination relative !bottom-0"></div>
+                </div>
+
+                <!-- Button load more -->
+                <button
+                    class="w-fit m-auto py-4 px-7 bg-white text-base text-secondary rounded-ee-2xl border border-[#191E26] mb-8">Load
+                    more post</button>
+
+                <!-- Contact -->
+                <div
+                    class="flex flex-col md:flex-row justify-between pb-14 md:pb-[7.5rem] md:items-end gap-6 md:gap-0 items-center w-full">
+                    <div class="flex flex-col text-center md:text-left font-bricolage-grotesque">
+                        <span
+                            class="relative font-extrabold text-[2.75rem] md:text-[4.5rem] lg:text-[6rem] xl:text-[6.75rem] z-0">Got
+                            an idea?<img alt="name" class="absolute right-0 -z-[1] top-0 w-[68px] md:w-[175px]"
+                                src="./assets/images/swap-contact.svg" /></span>
+                        <span
+                            class="font-medium text-xl md:text-[2.15rem] lg:text-[3rem] xl:text-[3.5rem] text-neutral-40 z-10">We
+                            can help you realize it. </span>
+                    </div>
+                    <button
+                        class="w-fit flex items-center gap-2 py-4 px-14 bg-secondary text-white text-base font-medium rounded-ee-2xl h-fit">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+        @include("footer.html")
+    </div>
+
+    <script>
+        var theLastedSwiper = new Swiper(".the-lasted-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".the-lasted .swiper-button-next",
+                prevEl: ".the-lasted .swiper-button-prev"
+            },
+            pagination: {
+                el: ".the-lasted .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var websiteDevelopmentSwiper = new Swiper(".website-development-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".website-development .swiper-button-next",
+                prevEl: ".website-development .swiper-button-prev"
+            },
+            pagination: {
+                el: ".website-development .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var websiteApplicationDevelopmentSwiper = new Swiper(".web-application-development-swipper", {
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".web-application-development .swiper-button-next",
+                prevEl: ".web-application-development .swiper-button-prev"
+            },
+            pagination: {
+                el: ".web-application-development .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var techlifeSwiper = new Swiper(".techlife-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".techlife .swiper-button-next",
+                prevEl: ".techlife .swiper-button-prev"
+            },
+            pagination: {
+                el: ".techlife .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var softwareDevelopmentSwiper = new Swiper(".software-development-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".software-development .swiper-button-next",
+                prevEl: ".software-development .swiper-button-prev"
+            },
+            pagination: {
+                el: ".software-development .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var softwareProjectManagementSwiper = new Swiper(".software-project-management-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".software-project-management .swiper-button-next",
+                prevEl: ".software-project-management .swiper-button-prev"
+            },
+            pagination: {
+                el: ".software-project-management .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var mobileAppDevelopmentSwiper = new Swiper(".mobile-app-development-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".mobile-app-development .swiper-button-next",
+                prevEl: ".mobile-app-development .swiper-button-prev"
+            },
+            pagination: {
+                el: ".mobile-app-development .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var eCommerceDevelopmentSwiper = new Swiper(".eCommerce-development-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".eCommerce-development .swiper-button-next",
+                prevEl: ".eCommerce-development .swiper-button-prev"
+            },
+            pagination: {
+                el: ".eCommerce-development .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var designWorldSwiper = new Swiper(".design-world-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".design-world .swiper-button-next",
+                prevEl: ".design-world .swiper-button-prev"
+            },
+            pagination: {
+                el: ".design-world .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var chatbotDevelopmentSwiper = new Swiper(".chatbot-development-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".chatbot-development .swiper-button-next",
+                prevEl: ".chatbot-development .swiper-button-prev"
+            },
+            pagination: {
+                el: ".chatbot-development .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var bestCompaniesSwiper = new Swiper(".best-companies-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".best-companies .swiper-button-next",
+                prevEl: ".best-companies .swiper-button-prev"
+            },
+            pagination: {
+                el: ".best-companies .swiper-pagination",
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var dsvUniverseSwiper = new Swiper(".dsv-universe-swipper", {
+            loop: true,
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".dsv-universe .swiper-button-next",
+                prevEl: ".dsv-universe .swiper-button-prev"
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
